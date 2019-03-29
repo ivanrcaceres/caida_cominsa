@@ -1,0 +1,204 @@
+.contenedor{
+    font-size:10px;
+    font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";
+    /*border: solid black 1px;*/
+    width: 21.4cm;
+    height: 30.4cm;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+
+}
+.puntox1{
+    position: absolute;
+    top: 12.82cm;
+    left: 12.82cm;
+}
+.puntox2{
+    position: absolute;
+    top: 12.82cm;
+    left: 25.64cm;
+}
+.puntox3{
+    position: absolute;
+    top: 25.64cm;
+    left: 12.82cm;
+}
+/*.puntox2{*/
+    /*position: absolute;*/
+    /*top: 10cm;*/
+    /*left: 18cm;*/
+/*}*/
+
+.fechax{
+    position: absolute;
+    left:6.53cm;
+    top: 2.43cm;
+}
+.senoresx{
+    position: absolute;
+    left: 7.29cm;
+    top: 2.81cm;
+}
+.direccionx{
+    position: absolute;
+    left: 8cm;
+    top: 3.03cm;
+}
+.rucx{
+    position: absolute;
+    left: 9cm;
+    top: 3.36cm;
+}
+.remisionx{
+    position: absolute;
+    left: 10cm;
+    top: 3.69cm;
+}
+
+
+.nombreorazonsocial001{
+    position: absolute;
+    left: 0.6cm;
+    top: 0.5cm;
+}
+
+.direccion001{
+    position: absolute;
+    left: 0.6cm;
+    top: 0.7cm;
+}
+
+.rucceduladeidentidad001{
+    position: absolute;
+    left: 0.6cm;
+    top: 0.9cm;
+}
+
+.notaderemision001{
+    position: absolute;
+    left: 0.6cm;
+    top: 1.1cm;
+}
+
+.condiciondeventa001{
+    position: absolute;
+    left: 0.6cm;
+    top: 1.3cm;
+}
+
+.telefono001{
+    position: absolute;
+    left: 0.6cm;
+    top: 1.5cm;
+}
+
+.cliente001{
+    position: absolute;
+    left: 0.6cm;
+    top: 1.7cm;
+}
+
+.OC001{
+    position: absolute;
+    left: 0.6cm;
+    top: 1.9cm;
+}
+
+.vendedor001{
+    position: absolute;
+    left: 0.6cm;
+    top: 2.1cm;
+}
+
+
+
+.codigo001{
+    position: absolute;
+    left: 0.6cm;
+    top: 2.3cm;
+}
+
+.cant001{
+    position: absolute;
+    left: 1cm;
+    top: 2.3cm;
+}
+
+.descrip001{
+    position: absolute;
+    left: 2cm;
+    top: 2.3cm;
+}
+
+.preuni001{
+    position: absolute;
+    left: 3cm;
+    top: 2.3cm;
+}
+
+.exenta001{
+    position: absolute;
+    left: 4cm;
+    top: 2.3cm;
+}
+
+.cincopor001{
+    position: absolute;
+    left: 5cm;
+    top: 2.3cm;
+}
+
+.te001{
+    position: absolute;
+    left: 4cm;
+    top: 6cm;
+}
+
+.t5001{
+    position: absolute;
+    left: 5cm;
+    top: 6cm;
+}
+
+.diezpor001{
+    position: absolute;
+    left: 6cm;
+    top: 2.3cm;
+}
+
+.t10001{
+    position: absolute;
+    left: 6cm;
+    top: 6cm;
+}
+
+.totalapagar001{
+    position: absolute;
+    left: 0.6cm;
+    top: 7cm;
+}
+
+.letra001{
+    position: absolute;
+    left: 0.6cm;
+    top: 7.2cm;
+}
+
+.cincoport001{
+    position: absolute;
+    left: 0.6cm;
+    top: 7.5cm;
+}
+
+.diezport001{
+    position: absolute;
+    left: 0.6cm;
+    top: 7.7cm;
+}
+
+.total001{
+    position: absolute;
+    left: 0.6cm;
+    top: 7.9cm;
+}

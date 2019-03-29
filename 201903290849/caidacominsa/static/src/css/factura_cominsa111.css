@@ -1,0 +1,1260 @@
+.contenedor{
+    font-size: 9px;
+    /*text-decoration-line: line-through;*/
+    font-family: "Arial", "Helvetica", "Verdana", "Trebuchet";
+    /*display: inline;*/
+    /*border: solid black 10px;*/
+    width: 10cm;
+    height: 16.4cm;
+    /*font-family:  "DejaVu Serif", "STIX", serif;*/
+
+}
+
+.a2{
+    position: absolute;
+    left: 2cm;
+    top: 3cm;
+}
+
+.a3{
+    position: absolute;
+    left: 3cm;
+    top: 3cm;
+}
+
+.a4{
+    position: absolute;
+    left: 4cm;
+    top: 3cm;
+}
+
+.a5{
+    position: absolute;
+    left: 5cm;
+    top: 3cm;
+}
+
+.a6{
+    position: absolute;
+    left: 6cm;
+    top: 3cm;
+}
+
+.a7{
+    position: absolute;
+    left: 7cm;
+    top: 3cm;
+}
+
+.a8{
+    position: absolute;
+    left: 8cm;
+    top: 3cm;
+}
+
+.a9{
+    position: absolute;
+    left: 9cm;
+    top: 3cm;
+}
+
+.a10{
+    position: absolute;
+    left: 10cm;
+    top: 3cm;
+}
+
+.a11{
+    position: absolute;
+    left: 11cm;
+    top: 3cm;
+}
+
+.a12{
+    position: absolute;
+    left: 12cm;
+    top: 3cm;
+}
+
+.a13{
+    position: absolute;
+    left: 13cm;
+    top: 3cm;
+}
+
+.a14{
+    position: absolute;
+    left: 14cm;
+    top: 3cm;
+}
+
+.a15{
+    position: absolute;
+    left: 15cm;
+    top: 3cm;
+}
+
+.a16{
+    position: absolute;
+    left: 16cm;
+    top: 3cm;
+}
+
+.a17{
+    position: absolute;
+    left: 17cm;
+    top: 3cm;
+}
+
+.a18{
+    position: absolute;
+    left: 18cm;
+    top: 3cm;
+}
+
+.a19{
+    position: absolute;
+    left: 19cm;
+    top: 3cm;
+}
+
+.a20{
+    position: absolute;
+    left: 20cm;
+    top: 3cm;
+}
+
+.a21{
+    position: absolute;
+    left: 21cm;
+    top: 3cm;
+}
+
+.a22{
+    position: absolute;
+    left: 22cm;
+    top: 3cm;
+}
+
+.a23{
+    position: absolute;
+    left: 23cm;
+    top: 3cm;
+}
+
+.a24{
+    position: absolute;
+    left: 24cm;
+    top: 3cm;
+}
+
+.a25{
+    position: absolute;
+    left: 25cm;
+    top: 3cm;
+}
+
+.a26{
+    position: absolute;
+    left: 26cm;
+    top: 3cm;
+}
+
+.a27{
+    position: absolute;
+    left: 27cm;
+    top: 3cm;
+}
+
+.a28{
+    position: absolute;
+    left: 28cm;
+    top: 3cm;
+}
+
+
+
+.b2{
+    position: absolute;
+    left: 3cm;
+    top: 2cm;
+}
+
+.b3{
+    position: absolute;
+    left: 3cm;
+    top: 3cm;
+}
+
+.b4{
+    position: absolute;
+    left: 3cm;
+    top: 4cm;
+}
+
+.b5{
+    position: absolute;
+    left: 3cm;
+    top: 5cm;
+}
+
+.b6{
+    position: absolute;
+    left: 3cm;
+    top: 6cm;
+}
+
+.b7{
+    position: absolute;
+    left: 3cm;
+    top: 7cm;
+}
+
+.b8{
+    position: absolute;
+    left: 3cm;
+    top: 8cm;
+}
+
+.b9{
+    position: absolute;
+    left: 3cm;
+    top: 9cm;
+}
+
+.b10{
+    position: absolute;
+    left: 3cm;
+    top: 10cm;
+}
+
+.b11{
+    position: absolute;
+    left: 3cm;
+    top: 11cm;
+}
+
+.b12{
+    position: absolute;
+    left: 3cm;
+    top: 12cm;
+}
+
+.b13{
+    position: absolute;
+    left: 3cm;
+    top: 13cm;
+}
+
+.b14{
+    position: absolute;
+    left: 3cm;
+    top: 14cm;
+}
+
+.b15{
+    position: absolute;
+    left: 3cm;
+    top: 15cm;
+}
+
+.b16{
+    position: absolute;
+    left: 3cm;
+    top: 16cm;
+}
+
+.b17{
+    position: absolute;
+    left: 3cm;
+    top: 17cm;
+}
+
+.b18{
+    position: absolute;
+    left: 3cm;
+    top: 18cm;
+}
+
+.b19{
+    position: absolute;
+    left: 3cm;
+    top: 19cm;
+}
+
+.b20{
+    position: absolute;
+    left: 3cm;
+    top: 20cm;
+}
+
+.b21{
+    position: absolute;
+    left: 3cm;
+    top: 21cm;
+}
+
+.b22{
+    position: absolute;
+    left: 2cm;
+    top: 22cm;
+}
+
+.b23{
+    position: absolute;
+    left: 2cm;
+    top: 23cm;
+}
+
+.b24{
+    position: absolute;
+    left: 2cm;
+    top: 24cm;
+}
+
+.b25{
+    position: absolute;
+    left: 2cm;
+    top: 25cm;
+}
+
+.b26{
+    position: absolute;
+    left: 2cm;
+    top: 26cm;
+}
+
+.b27{
+    position: absolute;
+    left: 2cm;
+    top: 27cm;
+}
+
+.b28{
+    position: absolute;
+    left: 2cm;
+    top: 28cm;
+}
+
+
+
+.c2{
+    position: absolute;
+    left: 26cm;
+    top: 2cm;
+}
+
+.c3{
+    position: absolute;
+    left: 26cm;
+    top: 3cm;
+}
+
+.c4{
+    position: absolute;
+    left: 26cm;
+    top: 4cm;
+}
+
+.c5{
+    position: absolute;
+    left: 26cm;
+    top: 5cm;
+}
+
+.c6{
+    position: absolute;
+    left: 26cm;
+    top: 6cm;
+}
+
+.c7{
+    position: absolute;
+    left: 26cm;
+    top: 7cm;
+}
+
+.c8{
+    position: absolute;
+    left: 26cm;
+    top: 8cm;
+}
+
+.c9{
+    position: absolute;
+    left: 26cm;
+    top: 9cm;
+}
+
+.c10{
+    position: absolute;
+    left: 26cm;
+    top: 10cm;
+}
+
+.c11{
+    position: absolute;
+    left: 26cm;
+    top: 11cm;
+}
+
+.c12{
+    position: absolute;
+    left: 26cm;
+    top: 12cm;
+}
+
+.c13{
+    position: absolute;
+    left: 26cm;
+    top: 13cm;
+}
+
+.c14{
+    position: absolute;
+    left: 26cm;
+    top: 14cm;
+}
+
+.c15{
+    position: absolute;
+    left: 26cm;
+    top: 15cm;
+}
+
+.c16{
+    position: absolute;
+    left: 26cm;
+    top: 16cm;
+}
+
+.c17{
+    position: absolute;
+    left: 26cm;
+    top: 17cm;
+}
+
+
+
+.d2{
+    position: absolute;
+    left: 2cm;
+    top: 16cm;
+}
+
+
+.d3{
+    position: absolute;
+    left: 3cm;
+    top: 16cm;
+}
+
+
+.d4{
+    position: absolute;
+    left: 4cm;
+    top: 16cm;
+}
+
+
+.d5{
+    position: absolute;
+    left: 5cm;
+    top: 16cm;
+}
+
+
+.d6{
+    position: absolute;
+    left: 6cm;
+    top: 16cm;
+}
+
+
+.d7{
+    position: absolute;
+    left: 7cm;
+    top: 16cm;
+}
+
+
+.d8{
+    position: absolute;
+    left: 8cm;
+    top: 16cm;
+}
+
+
+.d9{
+    position: absolute;
+    left: 9cm;
+    top: 16cm;
+}
+
+
+.d10{
+    position: absolute;
+    left: 10cm;
+    top: 16cm;
+}
+
+
+.d11{
+    position: absolute;
+    left: 11cm;
+    top: 16cm;
+}
+
+
+.d12{
+    position: absolute;
+    left: 12cm;
+    top: 16cm;
+}
+
+
+.d13{
+    position: absolute;
+    left: 13cm;
+    top: 16cm;
+}
+
+
+.d14{
+    position: absolute;
+    left: 14cm;
+    top: 16cm;
+}
+
+
+.d15{
+    position: absolute;
+    left: 15cm;
+    top: 16cm;
+}
+
+
+.d16{
+    position: absolute;
+    left: 16cm;
+    top: 16cm;
+}
+
+
+.d17{
+    position: absolute;
+    left: 17cm;
+    top: 16cm;
+}
+
+
+.d18{
+    position: absolute;
+    left: 18cm;
+    top: 16cm;
+}
+
+
+.d19{
+    position: absolute;
+    left: 19cm;
+    top: 16cm;
+}
+
+
+.d20{
+    position: absolute;
+    left: 20cm;
+    top: 16cm;
+}
+
+
+.d21{
+    position: absolute;
+    left: 21cm;
+    top: 16cm;
+}
+
+
+.d22{
+    position: absolute;
+    left: 22cm;
+    top: 16cm;
+}
+
+
+.d23{
+    position: absolute;
+    left: 23cm;
+    top: 16cm;
+}
+
+
+.d24{
+    position: absolute;
+    left: 24cm;
+    top: 16cm;
+}
+
+
+.d25{
+    position: absolute;
+    left: 25cm;
+    top: 16cm;
+}
+
+
+.d26{
+    position: absolute;
+    left: 26cm;
+    top: 16cm;
+}
+
+
+.d27{
+    position: absolute;
+    left: 27cm;
+    top: 16cm;
+}
+
+
+.d28{
+    position: absolute;
+    left: 28cm;
+    top: 16cm;
+}
+
+/*hoja 1 ##################################################################################################3*/
+
+.fechaxx01{
+    position: absolute;
+    left: 7.5cm;
+    top: 2.3cm;
+}
+
+.senoresxx01{
+    position: absolute;
+    left: 8cm;
+    top: 2.6cm;
+}
+
+.direccionxx01{
+    position: absolute;
+    left: 8.5cm;
+    top: 2.9cm;
+}
+.rucxx01{
+    position: absolute;
+    left: 7cm;
+    top: 3.2cm;
+}
+
+.remisionxx01{
+    position: absolute;
+    left: 8cm;
+    top: 3.5cm;
+}
+
+.condicionxx01{
+    position: absolute;
+    left: 11.3cm;
+    top: 2.6cm;
+}
+
+.telefonoxx01{
+    position: absolute;
+    left: 13.5cm;
+    top: 3.2cm;
+}
+
+.clientexx01{
+    position: absolute;
+    left: 13.5cm;
+    top: 3.5cm;
+}
+
+.ocxx01{
+    position: absolute;
+    left: 17cm;
+    top: 3.2cm;
+}
+
+.vendedorxx01{
+    position: absolute;
+    left: 18.5cm;
+    top: 3.5cm;
+}
+
+
+.achicar{
+    font-size:10px;
+    font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";
+    /*border: solid black 10px;*/
+    /*width: 21.65cm;*/
+    /*height: 16.4cm;*/
+    /*font-family:  "DejaVu Serif", "STIX", serif;*/
+
+}
+
+
+
+.codigoxx01{
+    position: absolute;
+    left: 1.2cm;
+    top: 4.5cm;
+}
+
+.cantxx01{
+    position: absolute;
+    left: 3.5cm;
+    top: 4.5cm;
+}
+
+.detallexx01{
+    position: absolute;
+    left: 5.2cm;
+    top: 4.5cm;
+}
+
+.preciounitarioxx01{
+    position: absolute;
+    left: 17.8cm;
+    top: 4.5cm;
+}
+
+.exentaxx01{
+    position: absolute;
+    left: 19.6cm;
+    top: 4.5cm;
+}
+
+.cincoxx01{
+    position: absolute;
+    left: 21.4cm;
+    top: 4.5cm;
+}
+
+.diezxx01{
+    position: absolute;
+    left: 23.3cm;
+    top: 4.5cm;
+}
+
+/*.achicarmas{*/
+    /*font-size:8px;*/
+    /*!*font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";*!*/
+    /*!*border: solid black 10px;*!*/
+    /*!*width: 15cm;*!*/
+    /*!*height: 16.4cm;*!*/
+    /*!*font-family:  "DejaVu Serif", "STIX", serif;*!*/
+
+/*}*/
+
+.letraxx01{
+    position: absolute;
+    left: 4.6cm;
+    top: 9.5cm;
+    /*right: 6cm;*/
+}
+
+.direcciondeenvioxx01{
+    position: absolute;
+    left: 2.6cm;
+    top: 9.8cm;
+}
+
+.recibidoporxx01{
+    position: absolute;
+    left: 3cm;
+    top: 10.1cm;
+}
+
+.notaxx01{
+    position: absolute;
+    left: 2cm;
+    top: 10.3cm;
+}
+
+
+
+
+.valorparcialexentaxx01{
+    position: absolute;
+    left: 19.6cm;
+    top: 9.5cm;
+}
+
+.valorparcialcincoxx01{
+    position: absolute;
+    left: 21.4cm;
+    top: 9.5cm;
+}
+
+.valorparcialdiezxx01{
+    position: absolute;
+    left: 23.3cm;
+    top: 9.5cm;
+}
+
+
+.totalapagarxx01{
+    position: absolute;
+    left: 22.4cm;
+    top: 9.9cm;
+}
+
+
+
+.liqcincoxx01{
+    position: absolute;
+    left: 17.6cm;
+    top: 10.3cm;
+}
+
+.liqdiezxx01{
+    position: absolute;
+    left: 19.4cm;
+    top: 10.3cm;
+}
+
+.total510xx01{
+    position: absolute;
+    left: 21.6cm;
+    top: 10.3cm;
+}
+
+.aclaracionxx01{
+    position: absolute;
+    left: 7.7cm;
+    top: 9.9cm;
+}
+
+.cixx01{
+    position: absolute;
+    left: 11.2cm;
+    top: 9.9cm;
+}
+
+
+/*hoja 2 #####################################################################################3*/
+
+.fechaxx02{
+    position: absolute;
+    left: 7.5cm;
+    top: 13.6cm;
+}
+
+.senoresxx02{
+    position: absolute;
+    left: 8cm;
+    top: 14.9cm;
+}
+
+.direccionxx02{
+    position: absolute;
+    left: 8.5cm;
+    top: 15.2cm;
+}
+.rucxx02{
+    position: absolute;
+    left: 7cm;
+    top: 15.5cm;
+}
+
+.remisionxx02{
+    position: absolute;
+    left: 8cm;
+    top: 15.8cm;
+}
+
+.condicionxx02{
+    position: absolute;
+    left: 11.3cm;
+    top: 14.9cm;
+}
+
+.telefonoxx02{
+    position: absolute;
+    left: 13.5cm;
+    top: 15.5cm;
+}
+
+.clientexx02{
+    position: absolute;
+    left: 13.5cm;
+    top: 15.8cm;
+}
+
+.ocxx02{
+    position: absolute;
+    left: 17cm;
+    top: 15.5cm;
+}
+
+.vendedorxx02{
+    position: absolute;
+    left: 18.5cm;
+    top: 15.8cm;
+}
+
+
+.achicar{
+    font-size:10px;
+    font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";
+    /*border: solid black 10px;*/
+    /*width: 21.65cm;*/
+    /*height: 16.4cm;*/
+    /*font-family:  "DejaVu Serif", "STIX", serif;*/
+
+}
+
+
+
+.codigoxx02{
+    position: absolute;
+    left: 1.2cm;
+    top: 16.8cm;
+}
+
+.cantxx02{
+    position: absolute;
+    left: 3.5cm;
+    top: 16.8cm;
+}
+
+.detallexx02{
+    position: absolute;
+    left: 5.2cm;
+    top: 16.8cm;
+}
+
+.preciounitarioxx02{
+    position: absolute;
+    left: 17.8cm;
+    top: 16.8cm;
+}
+
+.exentaxx02{
+    position: absolute;
+    left: 19.6cm;
+    top: 16.8cm;
+}
+
+.cincoxx02{
+    position: absolute;
+    left: 21.4cm;
+    top: 16.8cm;
+}
+
+.diezxx02{
+    position: absolute;
+    left: 23.3cm;
+    top: 16.8cm;
+}
+
+/*.achicarmas{*/
+    /*font-size:8px;*/
+    /*!*font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";*!*/
+    /*!*border: solid black 10px;*!*/
+    /*!*width: 15cm;*!*/
+    /*!*height: 16.4cm;*!*/
+    /*!*font-family:  "DejaVu Serif", "STIX", serif;*!*/
+
+/*}*/
+
+.letraxx02{
+    position: absolute;
+    left: 4.6cm;
+    top: 21.8cm;
+    /*right: 6cm;*/
+}
+
+.direcciondeenvioxx02{
+    position: absolute;
+    left: 2.6cm;
+    top: 22cm;
+}
+
+.recibidoporxx02{
+    position: absolute;
+    left: 3cm;
+    top: 22.2cm;
+}
+
+.notaxx02{
+    position: absolute;
+    left: 2cm;
+    top: 22.4cm;
+}
+
+
+
+
+.valorparcialexentaxx02{
+    position: absolute;
+    left: 19.6cm;
+    top: 21.8cm;
+}
+
+.valorparcialcincoxx02{
+    position: absolute;
+    left: 21.4cm;
+    top: 21.8cm;
+}
+
+.valorparcialdiezxx02{
+    position: absolute;
+    left: 23.3cm;
+    top: 21.8cm;
+}
+
+
+.totalapagarxx02{
+    position: absolute;
+    left: 22.4cm;
+    top: 22.2cm;
+}
+
+
+
+.liqcincoxx02{
+    position: absolute;
+    left: 17.6cm;
+    top: 22.6cm;
+}
+
+.liqdiezxx02{
+    position: absolute;
+    left: 19.4cm;
+    top: 22.6cm;
+}
+
+.total510xx02{
+    position: absolute;
+    left: 21.6cm;
+    top: 22.6cm;
+}
+
+.aclaracionxx02{
+    position: absolute;
+    left: 7.7cm;
+    top: 22.2cm;
+}
+
+.cixx02{
+    position: absolute;
+    left: 11.2cm;
+    top: 22.2cm;
+}
+
+
+/*hoja 3 ##########################################################################################*/
+
+.fechaxx03{
+    position: absolute;
+    left: 7.5cm;
+    top: 26.9cm;
+}
+
+.senoresxx03{
+    position: absolute;
+    left: 8cm;
+    top: 27.2cm;
+}
+
+.direccionxx03{
+    position: absolute;
+    left: 8.5cm;
+    top: 27.5cm;
+}
+.rucxx03{
+    position: absolute;
+    left: 7cm;
+    top: 27.8cm;
+}
+
+.remisionxx03{
+    position: absolute;
+    left: 8cm;
+    top: 28.1cm;
+}
+
+.condicionxx03{
+    position: absolute;
+    left: 11.3cm;
+    top: 27.2cm;
+}
+
+.telefonoxx03{
+    position: absolute;
+    left: 13.5cm;
+    top: 27.8cm;
+}
+
+.clientexx03{
+    position: absolute;
+    left: 13.5cm;
+    top: 28.1cm;
+}
+
+.ocxx03{
+    position: absolute;
+    left: 17cm;
+    top: 27.8cm;
+}
+
+.vendedorxx03{
+    position: absolute;
+    left: 18.5cm;
+    top: 28.1cm;
+}
+
+
+.achicar{
+    font-size:10px;
+    font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";
+    /*border: solid black 10px;*/
+    /*width: 21.65cm;*/
+    /*height: 16.4cm;*/
+    /*font-family:  "DejaVu Serif", "STIX", serif;*/
+
+}
+
+
+
+.codigoxx03{
+    position: absolute;
+    left: 1.2cm;
+    top: 29.1cm;
+}
+
+.cantxx03{
+    position: absolute;
+    left: 3.5cm;
+    top: 29.1cm;
+}
+
+.detallexx03{
+    position: absolute;
+    left: 5.2cm;
+    top: 29.1cm;
+}
+
+.preciounitarioxx03{
+    position: absolute;
+    left: 17.8cm;
+    top: 29.1cm;
+}
+
+.exentaxx03{
+    position: absolute;
+    left: 19.6cm;
+    top: 29.1cm;
+}
+
+.cincoxx03{
+    position: absolute;
+    left: 21.4cm;
+    top: 29.1cm;
+}
+
+.diezxx03{
+    position: absolute;
+    left: 23.3cm;
+    top: 29.1cm;
+}
+
+/*.achicarmas{*/
+    /*font-size:8px;*/
+    /*!*font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";*!*/
+    /*!*border: solid black 10px;*!*/
+    /*!*width: 15cm;*!*/
+    /*!*height: 16.4cm;*!*/
+    /*!*font-family:  "DejaVu Serif", "STIX", serif;*!*/
+
+/*}*/
+
+.letraxx03{
+    position: absolute;
+    left: 4.6cm;
+    top: 34.1cm;
+    /*right: 6cm;*/
+}
+
+.direcciondeenvioxx03{
+    position: absolute;
+    left: 2.6cm;
+    top: 34.3cm;
+}
+
+.recibidoporxx03{
+    position: absolute;
+    left: 3cm;
+    top: 34.5cm;
+}
+
+.notaxx03{
+    position: absolute;
+    left: 2cm;
+    top: 34.7cm;
+}
+
+
+
+
+.valorparcialexentaxx03{
+    position: absolute;
+    left: 19.6cm;
+    top: 34.1cm;
+}
+
+.valorparcialcincoxx03{
+    position: absolute;
+    left: 21.4cm;
+    top: 34.1cm;
+}
+
+.valorparcialdiezxx03{
+    position: absolute;
+    left: 23.3cm;
+    top: 34.1cm;
+}
+
+
+.totalapagarxx03{
+    position: absolute;
+    left: 22.4cm;
+    top: 34.5cm;
+}
+
+
+
+.liqcincoxx03{
+    position: absolute;
+    left: 17.6cm;
+    top: 34.9cm;
+}
+
+.liqdiezxx03{
+    position: absolute;
+    left: 19.4cm;
+    top: 34.9cm;
+}
+
+.total510xx03{
+    position: absolute;
+    left: 21.6cm;
+    top: 34.9cm;
+}
+
+.aclaracionxx03{
+    position: absolute;
+    left: 7.7cm;
+    top: 34.5cm;
+}
+
+.cixx03{
+    position: absolute;
+    left: 11.2cm;
+    top: 34.5cm;
+}

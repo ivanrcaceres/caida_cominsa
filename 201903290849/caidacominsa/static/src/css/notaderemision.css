@@ -1,0 +1,660 @@
+.contenedor{
+    font-size: 9.5px;
+    font-family: "Arial", "Helvetica", "Verdana", "Trebuchet";
+}
+
+.fecha{
+    position: absolute;
+    left: 8.8cm;
+    top: 2cm;
+}
+
+.nombre{
+    position: absolute;
+    left: 10cm;
+    top: 2.3cm;
+}
+
+.domicilio{
+    position: absolute;
+    left: 7.6cm;
+    top: 2.70cm;
+}
+
+.ruc{
+    position: absolute;
+    left: 8.65cm;
+    top: 2.8cm;
+}
+
+.direccionpartida{
+    position: absolute;
+    left: 9.6cm;
+    top: 3cm;
+}
+
+.direccionllegada{
+    position: absolute;
+    left: 9.6cm;
+    top: 3.25cm;
+}
+
+.iniciodetraslado{
+    position: absolute;
+    left: 9.1cm;
+    top: 3.55cm;
+}
+
+.fintraslado{
+    position: absolute;
+    left: 14.1cm;
+    top: 3.55cm;
+}
+
+.nrodenotaremision{
+    position: absolute;
+    left: 17.4cm;
+    top: 2cm;
+}
+
+.ciudad{
+    position: absolute;
+    left: 17cm;
+    top: 3cm;
+}
+
+.ciudad2{
+    position: absolute;
+    left: 17cm;
+    top: 3.20cm;
+}
+
+.km{
+    position: absolute;
+    left: 18.1cm;
+    top: 3.5cm;
+}
+
+.marca{
+    position: absolute;
+    left: 6.9cm;
+    top: 4cm;
+}
+
+.chapanro{
+    position: absolute;
+    left: 14.3cm;
+    top: 4cm;
+}
+
+.motivo{
+    position: absolute;
+    left: 22.1cm;
+    top: 3.95cm;
+}
+
+.nombre2{
+    position: absolute;
+    left: 6.9cm;
+    top: 4.55cm;
+}
+
+.nombredelcond{
+    position: absolute;
+    left: 15.8cm;
+    top: 4.55cm;
+}
+
+.comprobantedeventanro{
+    position: absolute;
+    left: 22.9cm;
+    top: 4.45cm;
+}
+
+.rucdeltransportista{
+    position: absolute;
+    left: 5.35cm;
+    top: 4.95cm;
+}
+
+.direcciondelcond{
+    position: absolute;
+    left: 15.2cm;
+    top: 4.95cm;
+}
+
+.timbradonro{
+    position: absolute;
+    left: 21.3cm;
+    top: 4.85cm;
+}
+
+.vendedor{
+    position: absolute;
+    left: 3.4cm;
+    top: 5.45cm;
+}
+
+.cidelcond{
+    position: absolute;
+    left: 15.4cm;
+    top: 5.45cm;
+}
+
+.codigo{
+    position: absolute;
+    left: 1.25cm;
+    top: 6.1cm;
+}
+
+.cantidad{
+    position: absolute;
+    left: 3.15cm;
+    top: 6.1cm;
+}
+
+.unidmedida{
+    position: absolute;
+    left: 5.1cm;
+    top: 6.1cm;
+}
+
+.descripcion{
+    position: absolute;
+    left: 7cm;
+    top: 6.1cm;
+}
+
+/*##################################hoja 2#######################################3#######*/
+
+.fecha2{
+    position: absolute;
+    left: 8.8cm;
+    top: 12.05cm;
+}
+
+.nombrex2{
+    position: absolute;
+    left: 10cm;
+    top: 12.20cm;
+}
+
+.domicilio2{
+    position: absolute;
+    left: 7.6cm;
+    top: 12.65cm;
+
+}
+
+.ruc2{
+    position: absolute;
+    left: 8.65cm;
+    top: 12.75cm;
+}
+
+.direccionpartida2{
+    position: absolute;
+    left: 9.4cm;
+    top: 13cm;
+}
+
+.direccionllegada2{
+    position: absolute;
+    left: 9.4cm;
+    top: 13.25cm;
+}
+
+.iniciodetraslado2{
+    position: absolute;
+    left: 9.1cm;
+    top: 13.55cm;
+}
+
+.fintraslado2{
+    position: absolute;
+    left: 14.2cm;
+    top: 13.50cm;
+}
+
+.nrodenotaremision2{
+    position: absolute;
+    left: 17.4cm;
+    top: 12cm;
+}
+
+.ciudadx2{
+    position: absolute;
+    left: 17.1cm;
+    top: 12.85cm;
+}
+
+.ciudad22{
+    position: absolute;
+    left: 17.1cm;
+    top: 13.2cm;
+}
+
+.km2{
+    position: absolute;
+    left: 18cm;
+    top: 13.4cm;
+}
+
+.marca2{
+    position: absolute;
+    left: 7.1cm;
+    top: 14cm;
+}
+
+.chapanro2{
+    position: absolute;
+    left: 14.3cm;
+    top: 14cm;
+}
+
+
+.motivo2{
+    position: absolute;
+    left: 21.95cm;
+    top: 14cm;
+}
+
+.nombre22{
+    position: absolute;
+    left: 7.1cm;
+    top: 14.45cm;
+}
+
+.nombredelcond2{
+    position: absolute;
+    left: 15.8cm;
+    top: 14.35cm;
+}
+
+.comprobantedeventanro2{
+    position: absolute;
+    left: 22.75cm;
+    top: 14.45cm;
+}
+
+.rucdeltransportista2{
+    position: absolute;
+    left: 5.35cm;
+    top: 15cm;
+}
+
+.direcciondelcond2{
+    position: absolute;
+    left: 15.2cm;
+    top: 15cm;
+}
+
+.timbradonro2{
+    position: absolute;
+    left: 21.3cm;
+    top: 15cm;
+}
+
+.vendedor2{
+    position: absolute;
+    left: 3.2cm;
+    top: 15.35cm;
+}
+
+.cidelcond2{
+    position: absolute;
+    left: 15.2cm;
+    top: 15.35cm;
+}
+
+.codigo2{
+    position: absolute;
+    left: 1.3cm;
+    top: 16.25cm;
+}
+
+.cantidad2{
+    position: absolute;
+    left: 3.15cm;
+    top: 16.25cm;
+}
+
+.unidmedida2{
+    position: absolute;
+    left: 5.15cm;
+    top: 16.15cm;
+}
+
+.descripcion2{
+    position: absolute;
+    left: 7.05cm;
+    top: 16.15cm;
+}
+
+/*##################################hoja 3#######################################3#######*/
+
+.fecha3{
+    position: absolute;
+    left: 8.9cm;
+    top: 22.15cm;
+}
+
+.nombre3{
+    position: absolute;
+    left: 10cm;
+    top: 22.40cm;
+}
+
+.domicilio3{
+    position: absolute;
+    left: 7.6cm;
+    top: 22.75cm;
+}
+
+.ruc3{
+    position: absolute;
+    left: 8.6cm;
+    top: 22.9cm;
+}
+
+.direccionpartida3{
+    position: absolute;
+    left: 9.8cm;
+    top: 23.15cm;
+}
+
+.direccionllegada3{
+    position: absolute;
+    left: 9.8cm;
+    top: 23.40cm;
+
+}
+
+.iniciodetraslado3{
+    position: absolute;
+    left: 9.25cm;
+    top: 23.7cm;
+}
+
+.fintraslado3{
+    position: absolute;
+    left: 14.1cm;
+    top: 23.65cm;
+}
+
+.nrodenotaremision3{
+    position: absolute;
+    left: 17.4cm;
+    top: 23.15cm;
+}
+
+.ciudad3{
+    position: absolute;
+    left: 17.1cm;
+    top: 23.15cm;
+}
+
+.ciudad23{
+    position: absolute;
+    left: 17.1cm;
+    top: 23.4cm;
+}
+
+.km3{
+    position: absolute;
+    left: 18.6cm;
+    top: 23.60cm;
+}
+
+.marca3{
+    position: absolute;
+    left: 7.3cm;
+    top: 24.2cm;
+}
+
+.chapanro3{
+    position: absolute;
+    left: 14.7cm;
+    top: 24.2cm;
+}
+
+.motivo3{
+    position: absolute;
+    left: 22.3cm;
+    top: 24.2cm;
+}
+
+.nombre23{
+    position: absolute;
+    left: 7.3cm;
+    top: 24.6cm;
+}
+
+.nombredelcond3{
+    position: absolute;
+    left: 16cm;
+    top: 24.5cm;
+}
+
+.comprobantedeventanro3{
+    position: absolute;
+    left: 22.9cm;
+    top: 24.5cm;
+}
+
+.rucdeltransportista3{
+    position: absolute;
+    left: 5.55cm;
+    top: 25.15cm;
+}
+
+.direcciondelcond3{
+    position: absolute;
+    left: 15.3cm;
+    top: 25.1cm;
+}
+
+.timbradonro3{
+    position: absolute;
+    left: 21.45cm;
+    top: 25.1cm;
+}
+
+.vendedor3{
+    position: absolute;
+    left: 3.4cm;
+    top: 25.5cm;
+}
+
+.cidelcond3{
+    position: absolute;
+    left: 15.3cm;
+    top: 25.4cm;
+}
+
+.codigo3{
+    position: absolute;
+    left: 1.4cm;
+    top: 26.25cm;
+}
+
+.cantidad3{
+    position: absolute;
+    left: 3.25cm;
+    top: 26.35cm;
+}
+
+.unidmedida3{
+    position: absolute;
+    left: 5.15cm;
+    top: 26.25cm;
+}
+
+.descripcion3{
+    position: absolute;
+    left: 7.05cm;
+    top: 26.25cm;
+}
+
+/*##################################hoja 4#######################################3#######*/
+.fecha4{
+    position: absolute;
+    left: 8.95cm;
+    top: 32.2cm;
+}
+
+.nombre4{
+    position: absolute;
+    left: 10cm;
+    top: 32.45cm;
+}
+
+.domicilio4{
+    position: absolute;
+    left: 7.6cm;
+    top: 32.90cm;
+}
+
+.ruc4{
+    position: absolute;
+    left: 8.60cm;
+    top: 33.05cm;
+}
+
+.direccionpartida4{
+    position: absolute;
+    left: 9.6cm;
+    top: 33.30cm;
+}
+
+.direccionllegada4{
+    position: absolute;
+    left: 9.6cm;
+    top: 33.55cm;
+}
+
+.iniciodetraslado4{
+    position: absolute;
+    left: 9.1cm;
+    top: 33.8cm;
+}
+
+.fintraslado4{
+    position: absolute;
+    left: 14.1cm;
+    top: 33.8cm;
+}
+
+.nrodenotaremision4{
+    position: absolute;
+    left: 17.3cm;
+    top: 32.3cm;
+}
+
+.ciudad4{
+    position: absolute;
+    left: 17.1cm;
+    top: 33.2cm;
+}
+
+.ciudad24{
+    position: absolute;
+    left: 17.1cm;
+    top: 33.50cm;
+}
+
+.km4{
+    position: absolute;
+    left: 18.3cm;
+    top: 33.7cm;
+}
+
+.marca4{
+    position: absolute;
+    left: 7.4cm;
+    top: 34.3cm;
+}
+
+.chapanro4{
+    position: absolute;
+    left: 14.5cm;
+    top: 34.25cm;
+}
+
+.motivo4{
+    position: absolute;
+    left: 22.1cm;
+    top: 34.15cm;
+}
+
+.nombre24{
+    position: absolute;
+    left: 7.2cm;
+    top: 34.7cm;
+}
+
+.nombredelcond4{
+    position: absolute;
+    left: 16.4cm;
+    top: 34.6cm;
+}
+
+.comprobantedeventanro4{
+    position: absolute;
+    left: 22.9cm;
+    top: 34.6cm;
+}
+
+.rucdeltransportista4{
+    position: absolute;
+    left: 5.4cm;
+    top: 35.15cm;
+}
+
+.direcciondelcond4{
+    position: absolute;
+    left: 15.3cm;
+    top: 35.1cm;
+}
+
+.timbradonro4{
+    position: absolute;
+    left: 21.4cm;
+    top: 35.05cm;
+}
+
+.vendedor4{
+    position: absolute;
+    left: 3.3cm;
+    top: 35.6cm;
+}
+
+.cidelcond4{
+    position: absolute;
+    left: 15.2cm;
+    top: 35.55cm;
+}
+
+.codigo4{
+    position: absolute;
+    left: 1.4cm;
+    top: 36.4cm;
+}
+
+.cantidad4{
+    position: absolute;
+    left: 3.3cm;
+    top: 36.4cm;
+}
+
+.unidmedida4{
+    position: absolute;
+    left: 5.15cm;
+    top: 36.4cm;
+}
+
+.descripcion4{
+    position: absolute;
+    left: 7.15cm;
+    top: 36.4cm;
+}

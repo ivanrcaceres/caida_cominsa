@@ -1,0 +1,317 @@
+.contenedor{
+    font-size: 7px;
+    /*text-decoration-line: line-through;*/
+    font-family: "Arial", "Helvetica", "Verdana", "Trebuchet";
+    /*display: inline;*/
+    /*border: solid black 10px;*/
+    /*width: 10cm;*/
+    /*height: 16.4cm;*/
+    /*font-family:  "DejaVu Serif", "STIX", serif;*/
+
+}
+
+.ticket{
+    /*padding-top:5px;*/
+    /*padding-bottom:5px;*/
+    /*padding-right:10px;*/
+    font-size:8px;
+    height:2cm;
+    width:3.3cm;
+    /*margin-right:0.2cm;*/
+    /*text-align:center;*/
+}
+/*.ticket .letra-grande{*/
+    /*font-size:10px;*/
+    /*font-weight: bold;*/
+/*}*/
+
+/*.coco{*/
+    /*height:50%;*/
+    /*width:100%;*/
+/*}*/
+
+/*.referenciainterna{*/
+
+/*}*/
+
+.logocominsa{
+    position: absolute;
+    left: 0.3cm;
+    top: 0.3cm;
+    width: 50%;
+    /*height: 100%;*/
+}
+
+.ref_interna{
+    position: absolute;
+    left: 1cm;
+    top: 0.15cm;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.ref_interna2{
+    font-weight: bold;
+    font-size: 8px;
+}
+
+.nombredelproducto{
+    position: absolute;
+    left: 1cm;
+    /*top: 0.65cm;*/
+    top: 0.8cm;
+    font-size: 10px;
+    width: 190px;
+
+}
+
+.codigodebarra{
+    position: absolute;
+    left: 0.5cm;
+    top: 1.5cm;
+}
+
+
+.numerocodigobarra{
+
+    position: absolute;
+    left: 2.3cm;
+    top: 2.7cm;
+    font-size:12px;
+}
+
+
+.hechoen{
+    position: absolute;
+    left: 1cm;
+    top: 3.1cm;
+    width: 90%;
+    font-size: 10px;
+}
+
+.fechadeemision{
+    position: absolute;
+    left: 4.9cm;
+    top: 3.1cm;
+    font-size:10px;
+}
+
+.nombredeop{
+    position: absolute;
+    left: 1cm;
+    top: 3.4cm;
+    width: 90%;
+    font-size: 10px;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  width: 80%;
+}
+
+.centrar{
+
+    text-align: right;
+
+}
+
+.dere{
+
+    text-align: left;
+
+
+}
+
+.barcode{
+
+    /*margin-left: 50px;*/
+    /*margin-top: 100px;*/
+    /*width: 50%;*/
+    /*height: 20%;*/
+
+}
+
+.tamanho{
+
+    font-size: 15px;
+    text-align: right;
+}
+
+
+/*hoja2*/
+
+.logocominsa02{
+    position: absolute;
+    left: 7cm;
+    top: 0.3cm;
+    width: 50%;
+    /*height: 100%;*/
+}
+
+
+
+.ref_interna02{
+    position: absolute;
+    left: 7.7cm;
+    top: 0.15cm;
+    font-weight: bold;
+    /*font-size: 20px;*/
+    font-size: 19px;
+}
+
+.nombredelproducto02{
+    position: absolute;
+    left: 7.7cm;
+    /*top: 0.65cm;*/
+    top: 0.8cm;
+    /*font-size: 8px;*/
+    font-size: 10px;
+    width: 190px;
+
+}
+
+
+/*.ref_interna202{*/
+    /*font-weight: bold;*/
+    /*font-size: 8px;*/
+/*}*/
+
+/*.nombredelproducto02{*/
+    /*position: absolute;*/
+    /*left: 7.7cm;*/
+    /*top: 0.65cm;*/
+    /*font-size: 8px;*/
+    /*width: 190px;*/
+
+/*}*/
+
+.codigodebarra02{
+    position: absolute;
+    left: 7.2cm;
+    top: 1.5cm;
+}
+
+
+/*.numerocodigobarra02{*/
+
+    /*position: absolute;*/
+    /*left: 9.7cm;*/
+    /*top: 2.7cm;*/
+    /*font-size:8px;*/
+/*}*/
+
+.numerocodigobarra02{
+
+    position: absolute;
+    left: 9cm;
+    top: 2.7cm;
+    font-size:12px;
+}
+
+
+/*.hechoen02{*/
+    /*position: absolute;*/
+    /*left: 7.7cm;*/
+    /*top: 3cm;*/
+    /*width: 90%;*/
+    /*font-size: 7px;*/
+/*}*/
+
+.hechoen02{
+    position: absolute;
+    left: 7.7cm;
+    top: 3.1cm;
+    /*width: 90%;*/
+    font-size: 10px;
+}
+
+.fechadeemision02{
+    position: absolute;
+    left: 11.6cm;
+    top: 3.1cm;
+    font-size:10px;
+}
+.nombredeop02{
+    position: absolute;
+    left: 7.7cm;
+    top: 3.4cm;
+    /*width: px;*/
+    font-size: 10px;
+}
+
+
+/*.para{*/
+    /*position: absolute;*/
+    /*left: 7.7cm;*/
+    /*top: 3cm;*/
+    /*font-size: 10px;*/
+/*}*/
+
+
+
+/*.fechadeemision02{*/
+    /*position: absolute;*/
+    /*left: 11cm;*/
+    /*top: 3cm;*/
+    /*font-size:7px;*/
+/*}*/
+
+/*.nombredeop02{*/
+    /*position: absolute;*/
+    /*left: 7.7cm;*/
+    /*top: 3.3cm;*/
+    /*width: 90%;*/
+    /*font-size: 7px;*/
+/*}*/
+
+
+
+
+/*.centrar02{*/
+
+    /*text-align: right;*/
+
+/*}*/
+
+/*.dere02{*/
+
+    /*text-align: left;*/
+
+
+/*}*/
+
+/*.barcode02{*/
+
+    /*!*margin-left: 50px;*!*/
+    /*!*margin-top: 100px;*!*/
+    /*!*width: 50%;*!*/
+    /*!*height: 20%;*!*/
+
+/*}*/
+
+/*.tamanho02{*/
+
+    /*font-size: 15px;*/
+    /*text-align: right;*/
+/*}*/
+
+
+
+/*#n01{*/
+    /*position: absolute;*/
+    /*left: 1cm;*/
+    /*!*top: 0.65cm;*!*/
+    /*top: 0.8cm;*/
+    /*!*width: px;*!*/
+    /*font-size: 10px;*/
+/*}*/
+
+/*#n02{*/
+    /*position: absolute;*/
+    /*left: 7.7cm;*/
+    /*top: 3.4cm;*/
+    /*!*width: px;*!*/
+    /*font-size: 10px;*/
+/*}*/

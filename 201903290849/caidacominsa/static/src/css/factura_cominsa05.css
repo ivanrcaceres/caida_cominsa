@@ -1,0 +1,188 @@
+.contenedor{
+    font-size:10px;
+    font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";
+    /*border: solid black 10px;*/
+    /*width: 21.65cm;*/
+    /*height: 16.4cm;*/
+    /*font-family:  "DejaVu Serif", "STIX", serif;*/
+}
+
+.hoja{
+    position: absolute;
+    left: 21.4cm;
+    top: 30.4cm;
+}
+
+/*la primera hoja*/
+
+.fecha001{
+    position: absolute;
+    left: 6.65cm;
+    top: 2.30cm;
+}
+.senores001{
+    position: absolute;
+    left: 7.42cm;
+    top: 2.68cm;
+}
+.direccion001{
+    position: absolute;
+    left: 7.42cm;
+    top: 3cm;
+}
+.ruc001{
+    position: absolute;
+    left: 6.53cm;
+    top: 3.32cm;
+}
+.remisionnumero001{
+    position: absolute;
+    left: 7.81cm;
+    top: 3.64cm;
+}
+.condicion001{
+    position: absolute;
+    left: 13.31cm;
+    top: 2.30cm;
+}
+.telefono001{
+    position: absolute;
+    left: 13.18cm;
+    top: 3.32cm;
+}
+.cliente001{
+    position: absolute;
+    left: 12.80cm;
+    top: 3.64cm;
+}
+.oc001{
+    position: absolute;
+    left: 16.89cm;
+    top: 3.32cm;
+}
+.vendedor001{
+    position: absolute;
+    left: 18.17cm;
+    top: 3.64cm;
+}
+
+.hola{
+    position: absolute;
+    left: 1cm;
+    top: 4.67cm;
+}
+
+/*TABLA PRODUCTOS FACTURA ORIGINAL*/
+.tabla_productos-1  {
+    position:absolute;
+    /*width: 24.6cm;*/
+    left: 1cm;
+    top:4.67cm;
+    text-align: right;
+}
+
+/*--COLUMNAS DE LA TABLA DE PRODUCTOS --*/
+/*Codigo*/
+table.tabla_productos-1 th:nth-child(1){
+    width: 1.75cm;
+}
+/*table.tabla_productos-1 td:nth-child(1){*/
+    /*width: 1.75cm;*/
+    /*!*padding-right: 0.25cm;*!*/
+
+/*}*/
+
+/*Cantidad*/
+table.tabla_productos-1 th:nth-child(2){
+    width: 1.7cm;
+
+}
+table.tabla_productos-1 td:nth-child(2){
+    width: 1.7cm;
+    /*padding-right: 0.25cm;*/
+    text-align: right;
+}
+/*Descripcion*/
+table.tabla_productos-1 th:nth-child(3){
+    width: 13cm;
+}
+table.tabla_productos-1 td:nth-child(3){
+    padding-left: 0.3cm;
+    width: 13cm;
+    text-align: left;
+}
+/*Precion Unitario*/
+table.tabla_productos-1 th:nth-child(4),
+table.tabla_productos-1 td:nth-child(4){
+    width: 1.92cm;
+    /*padding-right:0.5cm;*/
+}
+/*Excenta*/
+table.tabla_productos-1 th:nth-child(5),
+table.tabla_productos-1 td:nth-child(5){
+    width: 1.92cm;
+    /*padding-right:0.5cm;*/
+}
+/*5 porciento*/
+table.tabla_productos-1 th:nth-child(6),
+table.tabla_productos-1 td:nth-child(6){
+    width: 1.92cm;
+    /*padding-right:0.5cm;*/
+    /*font-size: 11px;*/
+}
+/*10 porciento*/
+table.tabla_productos-1 th:nth-child(7),
+table.tabla_productos-1 td:nth-child(7){
+    /*padding-right: 0.65cm;*/
+    width: 1.92cm;
+
+}
+
+
+.te{
+    position: absolute;
+    left: 19.7cm;
+    top: 9.55cm;
+}
+
+.t5{
+    position: absolute;
+    left: 21.7cm;
+    top: 9.55cm;
+}
+.t10{
+    position: absolute;
+    left: 23.7cm;
+    top: 9.55cm;
+}
+
+.cincoport{
+    position: absolute;
+    left: 15.2cm;
+    top: 8.65cm;
+}
+.diezport{
+    position: absolute;
+    left: 17.2cm;
+    top: 8.65cm;
+}
+.total{
+    position: absolute;
+    left: 19.2cm;
+    top: 8.65cm;
+}
+
+
+
+
+.totalapagar{
+    position: absolute;
+    left: 5.2cm;
+    top: 8.65cm;
+}
+
+.letra{
+    position: absolute;
+    left: 5cm;
+    top: 10cm;
+}

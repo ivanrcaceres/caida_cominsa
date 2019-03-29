@@ -1,0 +1,1412 @@
+.contenedor{
+    font-size:12px;
+    font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";
+    /*border: solid black 10px;*/
+    /*width: 21.65cm;*/
+    /*height: 16.4cm;*/
+    /*font-family:  "DejaVu Serif", "STIX", serif;*/
+
+}
+/*!*Dimensiones nro factura*!*/
+/*.nro-factura-alto{*/
+    /*top: 2.3cm;*/
+/*}*/
+
+/*.nro-factura-1{*/
+    /*position: absolute;*/
+    /*left: 7cm;*/
+    /*!*top: 2.3cm;*!*/
+/*}*/
+/*.nro-factura-2{*/
+    /*position: absolute;*/
+    /*left: 18cm;*/
+    /*!*top: 2.3cm;*!*/
+/*}*/
+
+/*!*Dimensiones fecha*!*/
+/*.fecha-alto{*/
+    /*top:5cm*/
+/*}*/
+
+/*.fecha-1{*/
+
+    /*position: absolute;*/
+    /*left: 3cm;*/
+/*}*/
+
+/*!*Lo correctos######################################################################################################3*!*/
+/*!*.nombre{*!*/
+    /*!*position: absolute;*!*/
+    /*!*left: 1.5cm;*!*/
+    /*!*top: 3.7cm;*!*/
+    /*!*width: 13.5cm;*!*/
+/*!*}*!*/
+/*!*.ruc{*!*/
+    /*!*position: absolute;*!*/
+    /*!*left: 1.5cm;*!*/
+    /*!*top: 4.4cm;*!*/
+    /*!*width: 13.5cm;*!*/
+/*!*}*!*/
+/*!*.fecha{*!*/
+    /*!*position: absolute;*!*/
+    /*!*left: 6.5cm;*!*/
+    /*!*top: 3.7cm;*!*/
+    /*!*width: 13.5cm;*!*/
+/*!*}*!*/
+/*.cant{*/
+    /*position: absolute;*/
+    /*left: 0.8cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.descrip{*/
+    /*position: absolute;*/
+    /*left: 1.4cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.preuni{*/
+    /*position: absolute;*/
+    /*left: 5.2cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.exenta{*/
+    /*position: absolute;*/
+    /*left: 6.5cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cincopor{*/
+    /*position: absolute;*/
+    /*left: 7.6cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.diezpor{*/
+    /*position: absolute;*/
+    /*left: 8.7cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.subt{*/
+    /*position: absolute;*/
+    /*left: 2.2cm;*/
+    /*top: 14cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.totalapagar{*/
+    /*position: absolute;*/
+    /*left: 8.7cm;*/
+    /*top: 14.5cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.letra{*/
+    /*position: absolute;*/
+    /*left: 0.8cm;*/
+    /*top: 15cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cincoport{*/
+    /*position: absolute;*/
+    /*left: 3.5cm;*/
+    /*top: 15.5cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.diezport{*/
+    /*position: absolute;*/
+    /*left: 5.4cm;*/
+    /*top: 15.5cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.total{*/
+    /*position: absolute;*/
+    /*left: 7.8cm;*/
+    /*top: 15.5cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.te{*/
+    /*position: absolute;*/
+    /*left: 6.4cm;*/
+    /*top: 14cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.t5{*/
+    /*position: absolute;*/
+    /*left: 7.6cm;*/
+    /*top: 14cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.t10{*/
+    /*position: absolute;*/
+    /*left: 8.7cm;*/
+    /*top: 14cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+
+/*!*comentario*!*/
+
+
+/*!*.nombre2{*!*/
+    /*!*position: absolute;*!*/
+    /*!*left: 12cm;*!*/
+    /*!*top: 3.7cm;*!*/
+    /*!*width: 13.5cm;*!*/
+/*!*}*!*/
+/*!*.ruc2{*!*/
+    /*!*position: absolute;*!*/
+    /*!*left: 12cm;*!*/
+    /*!*top: 4.4cm;*!*/
+    /*!*width: 13.5cm;*!*/
+/*!*}*!*/
+/*!*.fecha2{*!*/
+    /*!*position: absolute;*!*/
+    /*!*left: 17cm;*!*/
+    /*!*top: 3.7cm;*!*/
+    /*!*width: 13.5cm;*!*/
+/*!*}*!*/
+/*.cant2{*/
+    /*position: absolute;*/
+    /*left: 11.5cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.descrip2{*/
+    /*position: absolute;*/
+    /*left: 12.1cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.preuni2{*/
+    /*position: absolute;*/
+    /*left: 16cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.exenta2{*/
+    /*position: absolute;*/
+    /*left: 17.2cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cincopor2{*/
+    /*position: absolute;*/
+    /*left: 18.3cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.diezpor2{*/
+    /*position: absolute;*/
+    /*left: 19.4cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.subt2{*/
+    /*position: absolute;*/
+    /*left: 12.8cm;*/
+    /*top: 14cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.totalapagar2{*/
+    /*position: absolute;*/
+    /*left: 19.4cm;*/
+    /*top: 14.5cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.letra2{*/
+    /*position: absolute;*/
+    /*left: 11.5cm;*/
+    /*top: 15cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cincoport2{*/
+    /*position: absolute;*/
+    /*left: 14.2cm;*/
+    /*top: 15.5cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.diezport2{*/
+    /*position: absolute;*/
+    /*left: 16.1cm;*/
+    /*top: 15.5cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.total2{*/
+    /*position: absolute;*/
+    /*left: 18.5cm;*/
+    /*top: 15.5cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.te2{*/
+    /*position: absolute;*/
+    /*left: 17.2cm;*/
+    /*top: 14cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.t52{*/
+    /*position: absolute;*/
+    /*left: 18.3cm;*/
+    /*top: 14cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.t102{*/
+    /*position: absolute;*/
+    /*left: 19.4cm;*/
+    /*top: 14cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+
+/*!*lo correcto fin #################################################################################################################################3*!*/
+
+/*Lo multiplicado por 1.61cm*/
+/*lo multiplicado por 1.61 fin######################################################################################################3*/
+/*.nombre{*/
+    /*position: absolute;*/
+    /*left: 1.5cm;*/
+    /*top: 3.7cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.ruc{*/
+    /*position: absolute;*/
+    /*left: 1.5cm;*/
+    /*top: 4.4cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.fecha{*/
+    /*position: absolute;*/
+    /*left: 6.5cm;*/
+    /*top: 3.7cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+.cant{
+    position: absolute;
+    left: 1.28cm;
+    top: 9.66cm;
+    width: 13.5cm;
+}
+.descrip{
+    position: absolute;
+    left: 2.25cm;
+    top: 9.66cm;
+    width: 13.5cm;
+}
+.preuni{
+    position: absolute;
+    left: 8.37cm;
+    top: 9.66cm;
+    width: 13.5cm;
+}
+.exenta{
+    position: absolute;
+    left: 10.4cm;
+    top: 9.66cm;
+    width: 13.5cm;
+}
+.cincopor{
+    position: absolute;
+    left: 12.2cm;
+    top: 9.66cm;
+    width: 13.5cm;
+}
+.diezpor{
+    position: absolute;
+    left: 14cm;
+    top: 9.66cm;
+    width: 13.5cm;
+}
+.subt{
+    position: absolute;
+    left: 3.5cm;
+    top: 22.5cm;
+    width: 13.5cm;
+}
+.totalapagar{
+    position: absolute;
+    left: 14cm;
+    top: 23.3cm;
+    width: 13.5cm;
+}
+.letra{
+    position: absolute;
+    left: 1.2cm;
+    top: 24.1cm;
+    width: 13.5cm;
+}
+.cincoport{
+    position: absolute;
+    left: 5.6cm;
+    top: 24.9cm;
+    width: 13.5cm;
+}
+.diezport{
+    position: absolute;
+    left: 8.6cm;
+    top: 24.9cm;
+    width: 13.5cm;
+}
+.total{
+    position: absolute;
+    left: 12.5cm;
+    top: 24.9cm;
+    width: 13.5cm;
+}
+.te{
+    position: absolute;
+    left: 10.3cm;
+    top: 22.5cm;
+    width: 13.5cm;
+}
+.t5{
+    position: absolute;
+    left: 12.2cm;
+    top: 22.5cm;
+    width: 13.5cm;
+}
+.t10{
+    position: absolute;
+    left: 14cm;
+    top: 22.5cm;
+    width: 13.5cm;
+}
+
+/*comentario*/
+
+
+/*.nombre2{*/
+    /*position: absolute;*/
+    /*left: 12cm;*/
+    /*top: 3.7cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.ruc2{*/
+    /*position: absolute;*/
+    /*left: 12cm;*/
+    /*top: 4.4cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.fecha2{*/
+    /*position: absolute;*/
+    /*left: 17cm;*/
+    /*top: 3.7cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+.cant2{
+    position: absolute;
+    left: 18.5cm;
+    top: 9.6cm;
+    width: 13.5cm;
+}
+.descrip2{
+    position: absolute;
+    left: 19.4cm;
+    top: 9.66cm;
+    width: 13.5cm;
+}
+.preuni2{
+    position: absolute;
+    left: 25.7cm;
+    top: 9.66cm;
+    width: 13.5cm;
+}
+.exenta2{
+    position: absolute;
+    left: 27.6cm;
+    top: 9.66cm;
+    width: 13.5cm;
+}
+.cincopor2{
+    position: absolute;
+    left: 29.4cm;
+    top: 9.6cm;
+    width: 13.5cm;
+}
+.diezpor2{
+    position: absolute;
+    left: 31.2cm;
+    top: 9.6cm;
+    width: 13.5cm;
+}
+.subt2{
+    position: absolute;
+    left: 20.6cm;
+    top: 22.5cm;
+    width: 13.5cm;
+}
+.totalapagar2{
+    position: absolute;
+    left: 31.2cm;
+    top: 23.3cm;
+    width: 13.5cm;
+}
+.letra2{
+    position: absolute;
+    left: 18.5cm;
+    top: 24.1cm;
+    width: 13.5cm;
+}
+.cincoport2{
+    position: absolute;
+    left: 22.8cm;
+    top: 24.9cm;
+    width: 13.5cm;
+}
+.diezport2{
+    position: absolute;
+    left: 25.9cm;
+    top: 24.9cm;
+    width: 13.5cm;
+}
+.total2{
+    position: absolute;
+    left: 29.7cm;
+    top: 24.9cm;
+    width: 13.5cm;
+}
+.te2{
+    position: absolute;
+    left: 27.6cm;
+    top: 22.5cm;
+    width: 13.5cm;
+}
+.t52{
+    position: absolute;
+    left: 29.4cm;
+    top: 22.54cm;
+    width: 13.5cm;
+}
+.t102{
+    position: absolute;
+    left: 31.2cm;
+    top: 22.5cm;
+    width: 13.5cm;
+}
+
+/*lo multiplicado por 0.62 fin #################################################################################################################################3*/
+
+
+
+
+
+
+
+
+
+/*.punto-1-1{*/
+    /*position: absolute;*/
+    /*left: 1cm;*/
+    /*top: 1cm;*/
+/*}*/
+
+/*.punto-1-2{*/
+    /*position: absolute;*/
+    /*left: 1cm;*/
+    /*top: 2cm;*/
+/*}*/
+/*.punto-2-1{*/
+    /*position: absolute;*/
+    /*left: 2cm;*/
+    /*top: 1cm;*/
+/*}*/
+
+/*.punto-2-2{*/
+    /*position: absolute;*/
+    /*left: 2cm;*/
+    /*top: 2cm;*/
+/*}*/
+
+/* comentarioooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+/*.contenedor{*/
+    /*font-size:11px;*/
+    /*font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";*/
+    /*!*font-family:  "DejaVu Serif", "STIX", serif;*!*/
+
+/*}*/
+
+
+/*.nombre{*/
+    /*position: absolute;*/
+    /*left: 1.77cm;*/
+    /*top: 4.36cm;*/
+
+/*}*/
+/*.ruc{*/
+    /*position: absolute;*/
+    /*left: 1.77cm;*/
+    /*top: 5.19cm;*/
+
+/*}*/
+/*.fecha{*/
+    /*position: absolute;*/
+    /*left: 7.67cm;*/
+    /*top: 4.36cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cant{*/
+    /*position: absolute;*/
+    /*left: 0.94cm;*/
+    /*top: 7.08cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.descrip{*/
+    /*position: absolute;*/
+    /*left: 1.65cm;*/
+    /*top: 7.08cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.preuni{*/
+    /*position: absolute;*/
+    /*left: 6.13cm;*/
+    /*top: 7.08cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.exenta{*/
+    /*position: absolute;*/
+    /*left: 7.67cm;*/
+    /*top: 7.08cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cincopor{*/
+    /*position: absolute;*/
+    /*left: 8.96cm;*/
+    /*top: 7.08cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.diezpor{*/
+    /*position: absolute;*/
+    /*left: 10.26cm;*/
+    /*top: 7.08cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.subt{*/
+    /*position: absolute;*/
+    /*left: 2.59cm;*/
+    /*top: 16.52cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.totalapagar{*/
+    /*position: absolute;*/
+    /*left: 10.26cm;*/
+    /*top: 17.11cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.letra{*/
+    /*position: absolute;*/
+    /*left: 0.944cm;*/
+    /*top: 17.7cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cincoport{*/
+    /*position: absolute;*/
+    /*left: 4.13cm;*/
+    /*top: 18.29cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.diezport{*/
+    /*position: absolute;*/
+    /*left: 6.37cm;*/
+    /*top: 18.29cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.total{*/
+    /*position: absolute;*/
+    /*left: 9.20cm;*/
+    /*top: 18.29cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.te{*/
+    /*position: absolute;*/
+    /*left: 7.5cm;*/
+    /*top: 16.52cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.t5{*/
+    /*position: absolute;*/
+    /*left: 8.37cm;*/
+    /*top: 16.52cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.t10{*/
+    /*position: absolute;*/
+    /*left: 10.26cm;*/
+    /*top: 16.52cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+
+/*!*comentario*!*/
+
+
+/*.nombre2{*/
+    /*position: absolute;*/
+    /*left: 14.16cm;*/
+    /*top: 4.36cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.ruc2{*/
+    /*position: absolute;*/
+    /*left: 14.16cm;*/
+    /*top: 5.19cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.fecha2{*/
+    /*position: absolute;*/
+    /*left: 20.06cm;*/
+    /*top: 4.36cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cant2{*/
+    /*position: absolute;*/
+    /*left: 13.57cm;*/
+    /*top: 7.08cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.descrip2{*/
+    /*position: absolute;*/
+    /*left: 14.27cm;*/
+    /*top: 7.08cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.preuni2{*/
+    /*position: absolute;*/
+    /*left: 18.88cm;*/
+    /*top: 7.08cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.exenta2{*/
+    /*position: absolute;*/
+    /*left: 20.29cm;*/
+    /*top: 7.08cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cincopor2{*/
+    /*position: absolute;*/
+    /*left: 21.59cm;*/
+    /*top: 7.08cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.diezpor2{*/
+    /*position: absolute;*/
+    /*left: 22.89cm;*/
+    /*top: 7.08cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.subt2{*/
+    /*position: absolute;*/
+    /*left: 15.10cm;*/
+    /*top: 16.52cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.totalapagar2{*/
+    /*position: absolute;*/
+    /*left: 22.89cm;*/
+    /*top: 17.11cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.letra2{*/
+    /*position: absolute;*/
+    /*left: 13.57cm;*/
+    /*top: 17.7cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cincoport2{*/
+    /*position: absolute;*/
+    /*left: 16.75cm;*/
+    /*top: 18.29cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.diezport2{*/
+    /*position: absolute;*/
+    /*left: 18.99cm;*/
+    /*top: 18.29cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.total2{*/
+    /*position: absolute;*/
+    /*left: 21.83cm;*/
+    /*top: 18.29cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.te2{*/
+    /*position: absolute;*/
+    /*left: 20.29cm;*/
+    /*top: 16.52cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.t52{*/
+    /*position: absolute;*/
+    /*left: 21.59cm;*/
+    /*top: 16.52cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.t102{*/
+    /*position: absolute;*/
+    /*left: 22.89cm;*/
+    /*top: 16.52cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+
+/*.punto-1-1{*/
+    /*position: absolute;*/
+    /*left: 1cm;*/
+    /*top: 1cm;*/
+/*}*/
+
+/*.punto-1-2{*/
+    /*position: absolute;*/
+    /*left: 1cm;*/
+    /*top: 2cm;*/
+/*}*/
+/*.punto-2-1{*/
+    /*position: absolute;*/
+    /*left: 2cm;*/
+    /*top: 1cm;*/
+/*}*/
+
+/*.punto-2-2{*/
+    /*position: absolute;*/
+    /*left: 2cm;*/
+    /*top: 2cm;*/
+/*}*/
+
+/*.punto-1-12{*/
+    /*position: absolute;*/
+    /*left: 1.18cm;*/
+    /*top: 1.18cm;*/
+/*}*/
+
+/*.punto-1-22{*/
+    /*position: absolute;*/
+    /*left: 1.18cm;*/
+    /*top: 2.36cm;*/
+/*}*/
+/*.punto-2-12{*/
+    /*position: absolute;*/
+    /*left: 2.36cm;*/
+    /*top: 1.18cm;*/
+/*}*/
+
+/*.punto-2-22{*/
+    /*position: absolute;*/
+    /*left: 2.36cm;*/
+    /*top: 2.36cm;*/
+/*}*/
+
+
+/*.contenedor{*/
+    /*font-size:11px;*/
+    /*font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";*/
+    /*!*font-family:  "DejaVu Serif", "STIX", serif;*!*/
+
+/*}*/
+
+
+/*.nombre{*/
+    /*position: absolute;*/
+    /*left: 2.49cm;*/
+    /*top: 6.14cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.ruc{*/
+    /*position: absolute;*/
+    /*left: 2.49cm;*/
+    /*top: 7.30cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.fecha{*/
+    /*position: absolute;*/
+    /*left: 10.79cm;*/
+    /*top: 6.14cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cant{*/
+    /*position: absolute;*/
+    /*left: 1.32cm;*/
+    /*top: 9.96cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.descrip{*/
+    /*position: absolute;*/
+    /*left: 2.32cm;*/
+    /*top: 9.96cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.preuni{*/
+    /*position: absolute;*/
+    /*left: 8.63cm;*/
+    /*top: 9.96cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.exenta{*/
+    /*position: absolute;*/
+    /*left: 10.79cm;*/
+    /*top: 9.96cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cincopor{*/
+    /*position: absolute;*/
+    /*left: 12.61cm;*/
+    /*top: 9.96cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.diezpor{*/
+    /*position: absolute;*/
+    /*left: 14.44cm;*/
+    /*top: 9.96cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.subt{*/
+    /*position: absolute;*/
+    /*left: 3.65cm;*/
+    /*top: 23.24cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.totalapagar{*/
+    /*position: absolute;*/
+    /*left: 14.44cm;*/
+    /*top: 24.07cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.letra{*/
+    /*position: absolute;*/
+    /*left: 1.32cm;*/
+    /*top: 24.9cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cincoport{*/
+    /*position: absolute;*/
+    /*left: 5.81cm;*/
+    /*top: 25.73cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.diezport{*/
+    /*position: absolute;*/
+    /*left: 8.96cm;*/
+    /*top: 25.73cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.total{*/
+    /*position: absolute;*/
+    /*left: 12.94cm;*/
+    /*top: 25.73cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.te{*/
+    /*position: absolute;*/
+    /*left: 10.62cm;*/
+    /*top: 23.24cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.t5{*/
+    /*position: absolute;*/
+    /*left: 11.78cm;*/
+    /*top: 23.24cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.t10{*/
+    /*position: absolute;*/
+    /*left: 14.44cm;*/
+    /*top: 23.24cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+
+/*!*comentario*!*/
+
+
+/*.nombre2{*/
+    /*position: absolute;*/
+    /*left: 19.92cm;*/
+    /*top: 6.14cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.ruc2{*/
+    /*position: absolute;*/
+    /*left: 19.92cm;*/
+    /*top: 7.30cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.fecha2{*/
+    /*position: absolute;*/
+    /*left: 28.22cm;*/
+    /*top: 6.14cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cant2{*/
+    /*position: absolute;*/
+    /*left: 19.09cm;*/
+    /*top: 9.96cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.descrip2{*/
+    /*position: absolute;*/
+    /*left: 20.08cm;*/
+    /*top: 9.96cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.preuni2{*/
+    /*position: absolute;*/
+    /*left: 26.56cm;*/
+    /*top: 9.96cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.exenta2{*/
+    /*position: absolute;*/
+    /*left: 28.55cm;*/
+    /*top: 9.96cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cincopor2{*/
+    /*position: absolute;*/
+    /*left: 30.37cm;*/
+    /*top: 9.96cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.diezpor2{*/
+    /*position: absolute;*/
+    /*left: 32.20cm;*/
+    /*top: 9.96cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.subt2{*/
+    /*position: absolute;*/
+    /*left: 21.24cm;*/
+    /*top: 23.24cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.totalapagar2{*/
+    /*position: absolute;*/
+    /*left: 32.20cm;*/
+    /*top: 24.07cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.letra2{*/
+    /*position: absolute;*/
+    /*left: 19.09cm;*/
+    /*top: 24.9cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cincoport2{*/
+    /*position: absolute;*/
+    /*left: 23.57cm;*/
+    /*top: 25.73cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.diezport2{*/
+    /*position: absolute;*/
+    /*left: 26.72cm;*/
+    /*top: 25.73cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.total2{*/
+    /*position: absolute;*/
+    /*left: 30.71cm;*/
+    /*top: 25.73cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.te2{*/
+    /*position: absolute;*/
+    /*left: 28.55cm;*/
+    /*top: 23.24cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.t52{*/
+    /*position: absolute;*/
+    /*left: 30.37cm;*/
+    /*top: 23.24cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.t102{*/
+    /*position: absolute;*/
+    /*left: 32.20cm;*/
+    /*top: 23.24cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+
+/*.punto-1-1{*/
+    /*position: absolute;*/
+    /*left: 1.66cm;*/
+    /*top: 1.66cm;*/
+/*}*/
+
+/*.punto-1-2{*/
+    /*position: absolute;*/
+    /*left: 1.66cm;*/
+    /*top: 3.32cm;*/
+/*}*/
+/*.punto-2-1{*/
+    /*position: absolute;*/
+    /*left: 3.32cm;*/
+    /*top: 1.66cm;*/
+/*}*/
+
+/*.punto-2-2{*/
+    /*position: absolute;*/
+    /*left: 3.32cm;*/
+    /*top: 3.32cm;*/
+/*}*/
+
+/*.punto-1-1{*/
+    /*position: absolute;*/
+    /*left: 5.55cm;*/
+    /*top: 5.55cm;*/
+/*}*/
+
+/*.punto-1-2{*/
+    /*position: absolute;*/
+    /*left: 5.55cm;*/
+    /*top: 6.66cm;*/
+/*}*/
+/*.punto-2-1{*/
+    /*position: absolute;*/
+    /*left: 6.66cm;*/
+    /*top: 5.55cm;*/
+/*}*/
+
+/*.punto-2-2{*/
+    /*position: absolute;*/
+    /*left: 6.66cm;*/
+    /*top: 6.66cm;*/
+/*}*/
+
+
+/*Lo multiplicado por 1.11*/
+
+.afechadeemision{
+    position: absolute;
+    left: 0.88cm;
+    top: 3.99cm;
+    width: 13.5cm;
+}
+.anombreorazonsocial{
+    position: absolute;
+    left: 0.88cm;
+    top: 4.44cm;
+    width: 13.5cm;
+}
+.arucceduladeidentidad{
+    position: absolute;
+    left: 0.88cm;
+    top: 4.99cm;
+    width: 13.5cm;
+}
+.adireccion{
+    position: absolute;
+    left: 0.88cm;
+    top: 5.4cm;
+    width: 13.5cm;
+}
+.acondiciondeventa{
+    position: absolute;
+    left: 6.66cm;
+    top: 3.99cm;
+    width: 13.5cm;
+}
+.anotaderemision{
+    position: absolute;
+    left: 6.6cm;
+    top: 4.99cm;
+    width: 13.5cm;
+}
+.atelefono{
+    position: absolute;
+    left: 6.6cm;
+    top: 5.4cm;
+    width: 13.5cm;
+}
+
+/*los de arriba para la hoja */
+
+.afechadeemision2{
+    position: absolute;
+    left: 12.76cm;
+    top: 3.99cm;
+    width: 13.5cm;
+}
+.anombreorazonsocial2{
+    position: absolute;
+    left: 12.76cm;
+    top: 4.44cm;
+    width: 13.5cm;
+}
+.arucceduladeidentidad2{
+    position: absolute;
+    left: 12.76cm;
+    top: 4.99cm;
+    width: 13.5cm;
+}
+.adireccion2{
+    position: absolute;
+    left: 12.76cm;
+    top: 5.4cm;
+    width: 13.5cm;
+}
+.acondiciondeventa2{
+    position: absolute;
+    left: 18.1cm;
+    top: 3.99cm;
+    width: 13.5cm;
+}
+.anotaderemision2{
+    position: absolute;
+    left: 18.1cm;
+    top: 4.99cm;
+    width: 13.5cm;
+}
+.atelefono2{
+    position: absolute;
+    left: 18.1cm;
+    top: 5.4cm;
+    width: 13.5cm;
+}
+
+/*Fin*/
+
+
+
+/* arriba lo delcuadro */
+
+
+
+
+
+/*.nombre{*/
+    /*position: absolute;*/
+    /*left: 1.66cm;*/
+    /*top: 4.10cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.ruc{*/
+    /*position: absolute;*/
+    /*left: 1.5cm;*/
+    /*top: 4.4cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.fecha{*/
+    /*position: absolute;*/
+    /*left: 6.5cm;*/
+    /*top: 3.7cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cant{*/
+    /*position: absolute;*/
+    /*left: 0.8cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.descrip{*/
+    /*position: absolute;*/
+    /*left: 1.4cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.preuni{*/
+    /*position: absolute;*/
+    /*left: 5.2cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.exenta{*/
+    /*position: absolute;*/
+    /*left: 6.5cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cincopor{*/
+    /*position: absolute;*/
+    /*left: 7.6cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.diezpor{*/
+    /*position: absolute;*/
+    /*left: 8.7cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.subt{*/
+    /*position: absolute;*/
+    /*left: 2.2cm;*/
+    /*top: 14cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.totalapagar{*/
+    /*position: absolute;*/
+    /*left: 8.7cm;*/
+    /*top: 14.5cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.letra{*/
+    /*position: absolute;*/
+    /*left: 0.8cm;*/
+    /*top: 15cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cincoport{*/
+    /*position: absolute;*/
+    /*left: 3.5cm;*/
+    /*top: 15.5cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.diezport{*/
+    /*position: absolute;*/
+    /*left: 5.4cm;*/
+    /*top: 15.5cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.total{*/
+    /*position: absolute;*/
+    /*left: 7.8cm;*/
+    /*top: 15.5cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.te{*/
+    /*position: absolute;*/
+    /*left: 6.4cm;*/
+    /*top: 14cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.t5{*/
+    /*position: absolute;*/
+    /*left: 7.1cm;*/
+    /*top: 14cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.t10{*/
+    /*position: absolute;*/
+    /*left: 8.7cm;*/
+    /*top: 14cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+
+/*!*comentario*!*/
+
+
+/*.nombre2{*/
+    /*position: absolute;*/
+    /*left: 12cm;*/
+    /*top: 3.7cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.ruc2{*/
+    /*position: absolute;*/
+    /*left: 12cm;*/
+    /*top: 4.4cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.fecha2{*/
+    /*position: absolute;*/
+    /*left: 17cm;*/
+    /*top: 3.7cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cant2{*/
+    /*position: absolute;*/
+    /*left: 11.5cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.descrip2{*/
+    /*position: absolute;*/
+    /*left: 12.1cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.preuni2{*/
+    /*position: absolute;*/
+    /*left: 16cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.exenta2{*/
+    /*position: absolute;*/
+    /*left: 17.2cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cincopor2{*/
+    /*position: absolute;*/
+    /*left: 18.3cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.diezpor2{*/
+    /*position: absolute;*/
+    /*left: 19.4cm;*/
+    /*top: 6cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.subt2{*/
+    /*position: absolute;*/
+    /*left: 12.8cm;*/
+    /*top: 14cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.totalapagar2{*/
+    /*position: absolute;*/
+    /*left: 19.4cm;*/
+    /*top: 14.5cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.letra2{*/
+    /*position: absolute;*/
+    /*left: 11.5cm;*/
+    /*top: 15cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.cincoport2{*/
+    /*position: absolute;*/
+    /*left: 14.2cm;*/
+    /*top: 15.5cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.diezport2{*/
+    /*position: absolute;*/
+    /*left: 16.1cm;*/
+    /*top: 15.5cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.total2{*/
+    /*position: absolute;*/
+    /*left: 18.5cm;*/
+    /*top: 15.5cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.te2{*/
+    /*position: absolute;*/
+    /*left: 17.2cm;*/
+    /*top: 14cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.t52{*/
+    /*position: absolute;*/
+    /*left: 18.3cm;*/
+    /*top: 14cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.t102{*/
+    /*position: absolute;*/
+    /*left: 19.4cm;*/
+    /*top: 14cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+
+.punto-1-1{
+    position: absolute;
+    left: 1.61cm;
+    top: 1.61cm;
+}
+
+.punto-1-2{
+    position: absolute;
+    left: 1.61cm;
+    top: 3.22cm;
+}
+.punto-2-1{
+    position: absolute;
+    left: 3.22cm;
+    top: 1.61cm;
+}
+
+.punto-2-2{
+    position: absolute;
+    left: 3.22cm;
+    top: 3.22cm;
+}

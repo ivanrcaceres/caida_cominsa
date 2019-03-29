@@ -1,0 +1,666 @@
+.contenedor{
+    font-size: 9px;
+    /*text-decoration-line: line-through;*/
+    font-family: "Arial", "Helvetica", "Verdana", "Trebuchet";
+    /*display: inline;*/
+    /*border: solid black 10px;*/
+    width: 10cm;
+    height: 16.4cm;
+    /*font-family:  "DejaVu Serif", "STIX", serif;*/
+
+}
+
+
+/*hoja 1 ##################################################################################################3*/
+
+.fechaxx01{
+    position: absolute;
+    left: 7.9cm;
+    top: 2.6cm;
+}
+
+
+.senoresxx01{
+    position: absolute;
+    left: 8.4cm;
+    top: 2.9cm;
+}
+
+.direccionxx01{
+    position: absolute;
+    left: 8.9cm;
+    top: 3.2cm;
+}
+.rucxx01{
+    position: absolute;
+    left: 7.4cm;
+    top: 3.5cm;
+}
+
+.remisionxx01{
+    position: absolute;
+    left: 8.4cm;
+    top: 3.8cm;
+}
+
+.condicionxx01{
+    position: absolute;
+    left: 11.7cm;
+    top: 2.9cm;
+}
+
+.telefonoxx01{
+    position: absolute;
+    left: 13.9cm;
+    top: 3.5cm;
+}
+
+.clientexx01{
+    position: absolute;
+    left: 13.9cm;
+    top: 3.8cm;
+}
+
+.ocxx01{
+    position: absolute;
+    left: 17.4cm;
+    top: 3.5cm;
+}
+
+.vendedorxx01{
+    position: absolute;
+    left: 18.9cm;
+    top: 3.8cm;
+}
+
+
+.achicar{
+    font-size:10px;
+    font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";
+    /*border: solid black 10px;*/
+    /*width: 21.65cm;*/
+    /*height: 16.4cm;*/
+    /*font-family:  "DejaVu Serif", "STIX", serif;*/
+
+}
+
+
+
+.codigoxx01{
+    position: absolute;
+    left: 1.6cm;
+    top: 4.8cm;
+}
+
+/*.cantxx01{*/
+    /*position: absolute;*/
+    /*left: 3.5cm;*/
+    /*top: 4.5cm;*/
+/*}*/
+
+.cantxx01{
+    position: absolute;
+    left: 3.9cm;
+    top: 4.8cm;
+}
+
+.detallexx01{
+    position: absolute;
+    left: 5.6cm;
+    top: 4.8cm;
+}
+
+.preciounitarioxx01{
+    position: absolute;
+    left: 18.2cm;
+    top: 4.8cm;
+}
+
+.exentaxx01{
+    position: absolute;
+    left: 20cm;
+    top: 4.8cm;
+}
+
+.cincoxx01{
+    position: absolute;
+    left: 21.8cm;
+    top: 4.8cm;
+}
+
+.diezxx01{
+    position: absolute;
+    left: 23.7cm;
+    top: 4.8cm;
+}
+
+/*.achicarmas{*/
+    /*font-size:8px;*/
+    /*!*font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";*!*/
+    /*!*border: solid black 10px;*!*/
+    /*!*width: 15cm;*!*/
+    /*!*height: 16.4cm;*!*/
+    /*!*font-family:  "DejaVu Serif", "STIX", serif;*!*/
+
+/*}*/
+
+.letraxx01{
+    position: absolute;
+    left: 5cm;
+    top: 9.7cm;
+    /*right: 6cm;*/
+}
+
+.direcciondeenvioxx01{
+    position: absolute;
+    left: 3cm;
+    top: 9.9cm;
+}
+
+.recibidoporxx01{
+    position: absolute;
+    left: 3.4cm;
+    top: 10.1cm;
+}
+
+.notaxx01{
+    position: absolute;
+    left: 2.4cm;
+    top: 10.3cm;
+}
+
+
+
+
+.valorparcialexentaxx01{
+    position: absolute;
+    left: 20cm;
+    top: 9.7cm;
+}
+
+.valorparcialcincoxx01{
+    position: absolute;
+    left: 21.8cm;
+    top: 9.7cm;
+}
+
+.valorparcialdiezxx01{
+    position: absolute;
+    left: 23.7cm;
+    top: 9.7cm;
+}
+
+
+.totalapagarxx01{
+    position: absolute;
+    left: 22.8cm;
+    top: 10.1cm;
+}
+
+
+
+.liqcincoxx01{
+    position: absolute;
+    left: 18cm;
+    top: 10.5cm;
+}
+
+.liqdiezxx01{
+    position: absolute;
+    left: 19.8cm;
+    top: 10.5cm;
+}
+
+.total510xx01{
+    position: absolute;
+    left: 22cm;
+    top: 10.5cm;
+}
+
+.aclaracionxx01{
+    position: absolute;
+    left: 8.1cm;
+    top: 10.2cm;
+}
+
+.cixx01{
+    position: absolute;
+    left: 11.6cm;
+    top: 10.2cm;
+}
+
+/*hoja 2 #############################################################################################*/
+
+.fechaxx02{
+    position: absolute;
+    left: 7.9cm;
+    top: 14.8cm;
+}
+
+
+.senoresxx02{
+    position: absolute;
+    left: 8.4cm;
+    top: 15.1cm;
+}
+
+.direccionxx02{
+    position: absolute;
+    left: 8.9cm;
+    top: 15.4cm;
+}
+.rucxx02{
+    position: absolute;
+    left: 7.4cm;
+    top: 15.7cm;
+}
+
+.remisionxx02{
+    position: absolute;
+    left: 8.4cm;
+    top: 16cm;
+}
+
+.condicionxx02{
+    position: absolute;
+    left: 11.7cm;
+    top: 15.1cm;
+}
+
+.telefonoxx02{
+    position: absolute;
+    left: 13.9cm;
+    top: 15.7cm;
+}
+
+.clientexx02{
+    position: absolute;
+    left: 13.9cm;
+    top: 16cm;
+}
+
+.ocxx02{
+    position: absolute;
+    left: 17.4cm;
+    top: 15.7cm;
+}
+
+.vendedorxx02{
+    position: absolute;
+    left: 18.9cm;
+    top: 16cm;
+}
+
+
+.achicar{
+    font-size:10px;
+    font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";
+    /*border: solid black 10px;*/
+    /*width: 21.65cm;*/
+    /*height: 16.4cm;*/
+    /*font-family:  "DejaVu Serif", "STIX", serif;*/
+
+}
+
+
+
+.codigoxx02{
+    position: absolute;
+    left: 1.6cm;
+    top: 17cm;
+}
+
+/*.cantxx01{*/
+    /*position: absolute;*/
+    /*left: 3.5cm;*/
+    /*top: 4.5cm;*/
+/*}*/
+
+.cantxx02{
+    position: absolute;
+    left: 3.9cm;
+    top: 17cm;
+}
+
+.detallexx02{
+    position: absolute;
+    left: 5.6cm;
+    top: 17cm;
+}
+
+.preciounitarioxx02{
+    position: absolute;
+    left: 18.2cm;
+    top: 17cm;
+}
+
+.exentaxx02{
+    position: absolute;
+    left: 20cm;
+    top: 17cm;
+}
+
+.cincoxx02{
+    position: absolute;
+    left: 21.8cm;
+    top: 17cm;
+}
+
+.diezxx02{
+    position: absolute;
+    left: 23.7cm;
+    top: 17cm;
+}
+
+/*.achicarmas{*/
+    /*font-size:8px;*/
+    /*!*font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";*!*/
+    /*!*border: solid black 10px;*!*/
+    /*!*width: 15cm;*!*/
+    /*!*height: 16.4cm;*!*/
+    /*!*font-family:  "DejaVu Serif", "STIX", serif;*!*/
+
+/*}*/
+
+.letraxx02{
+    position: absolute;
+    left: 5cm;
+    top: 21.9cm;
+    /*right: 6cm;*/
+}
+
+.direcciondeenvioxx02{
+    position: absolute;
+    left: 3cm;
+    top: 22.1cm;
+}
+
+.recibidoporxx02{
+    position: absolute;
+    left: 3.4cm;
+    top: 22.3cm;
+}
+
+.notaxx02{
+    position: absolute;
+    left: 2.4cm;
+    top: 22.5cm;
+}
+
+
+
+
+.valorparcialexentaxx02{
+    position: absolute;
+    left: 20cm;
+    top: 21.9cm;
+}
+
+.valorparcialcincoxx02{
+    position: absolute;
+    left: 21.8cm;
+    top: 21.9cm;
+}
+
+.valorparcialdiezxx02{
+    position: absolute;
+    left: 23.7cm;
+    top: 21.9cm;
+}
+
+
+.totalapagarxx02{
+    position: absolute;
+    left: 22.8cm;
+    top: 22.3cm;
+}
+
+
+
+.liqcincoxx02{
+    position: absolute;
+    left: 18cm;
+    top: 22.7cm;
+}
+
+.liqdiezxx02{
+    position: absolute;
+    left: 19.8cm;
+    top: 22.7cm;
+}
+
+.total510xx02{
+    position: absolute;
+    left: 22cm;
+    top: 22.7cm;
+}
+
+.aclaracionxx02{
+    position: absolute;
+    left: 8.1cm;
+    top: 22.4cm;
+}
+
+.cixx02{
+    position: absolute;
+    left: 11.6cm;
+    top: 22.4cm;
+}
+
+/*hoja 3 #############################################################################################*/
+
+.fechaxx03{
+    position: absolute;
+    left: 7.9cm;
+    top: 27cm;
+}
+
+
+.senoresxx03{
+    position: absolute;
+    left: 8.4cm;
+    top: 27.3cm;
+}
+
+.direccionxx03{
+    position: absolute;
+    left: 8.9cm;
+    top: 27.6cm;
+}
+.rucxx03{
+    position: absolute;
+    left: 7.4cm;
+    top: 27.9cm;
+}
+
+.remisionxx03{
+    position: absolute;
+    left: 8.4cm;
+    top: 28.2cm;
+}
+
+.condicionxx03{
+    position: absolute;
+    left: 11.7cm;
+    top: 27.3cm;
+}
+
+.telefonoxx03{
+    position: absolute;
+    left: 13.9cm;
+    top: 27.9cm;
+}
+
+.clientexx03{
+    position: absolute;
+    left: 13.9cm;
+    top: 28.2cm;
+}
+
+.ocxx03{
+    position: absolute;
+    left: 17.4cm;
+    top: 27.9cm;
+}
+
+.vendedorxx03{
+    position: absolute;
+    left: 18.9cm;
+    top: 28.2cm;
+}
+
+
+.achicar{
+    font-size:10px;
+    font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";
+    /*border: solid black 10px;*/
+    /*width: 21.65cm;*/
+    /*height: 16.4cm;*/
+    /*font-family:  "DejaVu Serif", "STIX", serif;*/
+
+}
+
+
+
+.codigoxx03{
+    position: absolute;
+    left: 1.6cm;
+    top: 29.2cm;
+}
+
+/*.cantxx01{*/
+    /*position: absolute;*/
+    /*left: 3.5cm;*/
+    /*top: 4.5cm;*/
+/*}*/
+
+.cantxx03{
+    position: absolute;
+    left: 3.9cm;
+    top: 29.2cm;
+}
+
+.detallexx03{
+    position: absolute;
+    left: 5.6cm;
+    top: 29.2cm;
+}
+
+.preciounitarioxx03{
+    position: absolute;
+    left: 18.2cm;
+    top: 29.2cm;
+}
+
+.exentaxx03{
+    position: absolute;
+    left: 20cm;
+    top: 29.2cm;
+}
+
+.cincoxx03{
+    position: absolute;
+    left: 21.8cm;
+    top: 29.2cm;
+}
+
+.diezxx03{
+    position: absolute;
+    left: 23.7cm;
+    top: 29.2cm;
+}
+
+/*.achicarmas{*/
+    /*font-size:8px;*/
+    /*!*font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";*!*/
+    /*!*border: solid black 10px;*!*/
+    /*!*width: 15cm;*!*/
+    /*!*height: 16.4cm;*!*/
+    /*!*font-family:  "DejaVu Serif", "STIX", serif;*!*/
+
+/*}*/
+
+.letraxx03{
+    position: absolute;
+    left: 5cm;
+    top: 34.1cm;
+    /*right: 6cm;*/
+}
+
+.direcciondeenvioxx03{
+    position: absolute;
+    left: 3cm;
+    top: 34.3cm;
+}
+
+.recibidoporxx03{
+    position: absolute;
+    left: 3.4cm;
+    top: 34.5cm;
+}
+
+.notaxx03{
+    position: absolute;
+    left: 2.4cm;
+    top: 34.7cm;
+}
+
+
+
+
+.valorparcialexentaxx03{
+    position: absolute;
+    left: 20cm;
+    top: 34.1cm;
+}
+
+.valorparcialcincoxx03{
+    position: absolute;
+    left: 21.8cm;
+    top: 34.1cm;
+}
+
+.valorparcialdiezxx03{
+    position: absolute;
+    left: 23.7cm;
+    top: 34.1cm;
+}
+
+
+.totalapagarxx03{
+    position: absolute;
+    left: 22.8cm;
+    top: 34.5cm;
+}
+
+
+
+.liqcincoxx03{
+    position: absolute;
+    left: 18cm;
+    top: 34.9cm;
+}
+
+.liqdiezxx03{
+    position: absolute;
+    left: 19.8cm;
+    top: 34.9cm;
+}
+
+.total510xx03{
+    position: absolute;
+    left: 22cm;
+    top: 34.9cm;
+}
+
+.aclaracionxx03{
+    position: absolute;
+    left: 8.1cm;
+    top: 34.6cm;
+}
+
+.cixx03{
+    position: absolute;
+    left: 11.6cm;
+    top: 34.6cm;
+}

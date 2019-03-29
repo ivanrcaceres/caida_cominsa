@@ -1,0 +1,176 @@
+<odoo>
+    <data>
+        <!-- factura para casa cominsa -->
+    <record id="paperformat_factura_cominsa" model="report.paperformat">
+    <field name="name">Factura</field>
+    <field name="default" eval="True"/>
+    <field name="format">custom</field>
+    <field name="page_width">210</field> <!-- eje X -->
+    <field name="page_height">340</field> <!-- eje Y -->
+    <field name="orientation">Portrait</field>
+    <field name="margin_top">0</field>
+    <field name="margin_bottom">0</field>
+    <field name="margin_left">0</field>
+    <field name="margin_right">0</field>
+    <field name="dpi">90</field>
+    <field name="header_line" eval="False"/>
+    <!--
+        <field name="header_spacing">35</field>
+    -->
+    </record>
+
+
+
+        <report
+            id="report_factura_cominsa"
+            model="account.invoice"
+            string="Factura Cominsa"
+            report_type="qweb-pdf"
+            name="caidacominsa.factura_report_cominsa"
+            file="caidacominsa.factura_report_cominsa"
+            attachment_use="True"
+            paperformat="paperformat_factura_cominsa"
+    />
+
+
+
+        <!-- nora de remision ##################################################################### -->
+        <!--<record id="paperformat_remision_cominsa" model="report.paperformat">-->
+    <!--<field name="name">Remision</field>-->
+    <!--<field name="default" eval="True"/>-->
+    <!--<field name="format">custom</field>-->
+    <!--<field name="page_width">210</field> &lt;!&ndash; eje X &ndash;&gt;-->
+    <!--<field name="page_height">340</field> &lt;!&ndash; eje Y &ndash;&gt;-->
+    <!--<field name="orientation">Portrait</field>-->
+    <!--<field name="margin_top">0</field>-->
+    <!--<field name="margin_bottom">0</field>-->
+    <!--<field name="margin_left">0</field>-->
+    <!--<field name="margin_right">0</field>-->
+    <!--<field name="dpi">90</field>-->
+    <!--<field name="header_line" eval="False"/>-->
+    <!--&lt;!&ndash;-->
+        <!--<field name="header_spacing">35</field>-->
+    <!--&ndash;&gt;-->
+    <!--</record>-->
+
+
+
+
+        <!--<report-->
+            <!--id="report_remision_cominsa"-->
+            <!--model="account.invoice"-->
+            <!--string="Remision Cominsa"-->
+            <!--report_type="qweb-pdf"-->
+            <!--name="caidacominsa.remision_report_cominsa"-->
+            <!--file="caidacominsa.remision_report_cominsa"-->
+            <!--attachment_use="True"-->
+            <!--paperformat="paperformat_remision_cominsa"-->
+    <!--/>-->
+
+
+
+
+                <!-- nora de remision ##################################################################### -->
+    <record id="paperformat_remision_cominsa" model="report.paperformat">
+    <field name="name">Remision</field>
+    <field name="default" eval="True"/>
+    <field name="format">custom</field>
+    <field name="page_width">210</field> <!-- eje X -->
+    <field name="page_height">340</field> <!-- eje Y -->
+    <field name="orientation">Portrait</field>
+    <field name="margin_top">0</field>
+    <field name="margin_bottom">0</field>
+    <field name="margin_left">0</field>
+    <field name="margin_right">0</field>
+    <field name="dpi">90</field>
+    <field name="header_line" eval="False"/>
+    <!--
+        <field name="header_spacing">35</field>
+    -->
+    </record>
+
+
+
+
+        <!--<report-->
+            <!--id="report_remision_cominsa"-->
+            <!--model="stock.picking"-->
+            <!--string="Remision Cominsa"-->
+            <!--report_type="qweb-pdf"-->
+            <!--name="caidacominsa.remision_report_cominsa"-->
+            <!--file="caidacominsa.remision_report_cominsa"-->
+            <!--attachment_use="True"-->
+            <!--paperformat="paperformat_remision_cominsa"-->
+    <!--/>-->
+
+
+
+                        <!-- nora de credito ##################################################################### -->
+    <record id="paperformat_credito_cominsa" model="report.paperformat">
+    <field name="name">Remision</field>
+    <field name="default" eval="True"/>
+    <field name="format">custom</field>
+    <field name="page_width">210</field> <!-- eje X -->
+    <field name="page_height">340</field> <!-- eje Y -->
+    <field name="orientation">Portrait</field>
+    <field name="margin_top">0</field>
+    <field name="margin_bottom">0</field>
+    <field name="margin_left">0</field>
+    <field name="margin_right">0</field>
+    <field name="dpi">90</field>
+    <field name="header_line" eval="False"/>
+    <!--
+        <field name="header_spacing">35</field>
+    -->
+    </record>
+
+
+
+
+        <!--<report-->
+            <!--id="report_credito_cominsa"-->
+            <!--model="account.invoice"-->
+            <!--string="Credito Cominsa"-->
+            <!--report_type="qweb-pdf"-->
+            <!--name="caidacominsa.credito_report_cominsa"-->
+            <!--file="caidacominsa.credito_report_cominsa"-->
+            <!--attachment_use="True"-->
+            <!--paperformat="paperformat_credito_cominsa"-->
+    <!--/>-->
+
+<!-- ######################################################################3 Ticket -->
+
+    <record id="paperformat_ticket" model="report.paperformat">
+    <field name="name">Ticket</field>
+    <field name="default" eval="True"/>
+    <field name="format">custom</field>
+    <field name="page_width">100</field> <!-- eje X -->
+    <field name="page_height">30</field> <!-- eje Y -->
+    <field name="orientation">Portrait</field>
+    <field name="margin_top">0</field>
+    <field name="margin_bottom">0</field>
+    <field name="margin_left">0</field>
+    <field name="margin_right">0</field>
+    <field name="dpi">300</field>
+    <field name="header_line" eval="False"/>
+    <!--
+        <field name="header_spacing">35</field>
+    -->
+    </record>
+
+    <report
+        id="report_ticket"
+        model="mrp.production"
+        string="Ticket"
+        report_type="qweb-pdf"
+        name="caidacominsa.ticket_report_cominsa"
+        file="caidacominsa.ticket_report_cominsa"
+        attachment_use="True"
+        paperformat="paperformat_ticket"
+    />
+
+
+
+
+    </data>
+</odoo>

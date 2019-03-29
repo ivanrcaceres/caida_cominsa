@@ -1,0 +1,41 @@
+.contenedor{
+    font-size:15px;
+    font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";
+    /*border: solid black 10px;*/
+    /*width: 21.65cm;*/
+    /*height: 16.4cm;*/
+    /*font-family:  "DejaVu Serif", "STIX", serif;*/
+
+}
+
+
+.P8-8{
+    position: absolute;
+    left: 8cm;
+    top: 8cm;
+}
+
+.P8-7{
+    position: absolute;
+    left: 8cm;
+    top: 7cm;
+}
+
+.P7-8{
+    position: absolute;
+    left: 7cm;
+    top: 8cm;
+}
+
+.P7-7{
+    position: absolute;
+    left: 7cm;
+    top: 7cm;
+}
+
+.P2-2{
+    position: absolute;
+    left: 2cm;
+    top: 2cm;
+}
+

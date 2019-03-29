@@ -1,0 +1,691 @@
+<odoo>
+    <template id="factura_report_cominsa">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.basic_layout">
+                    <div class="page" >
+                        <link rel="stylesheet" href="/caidacominsa/static/src/css/factura_cominsa05.css"/>
+                        <div class="contenedor">
+
+
+
+<!--
+                            <div class="fechax">
+                                Fecha: <span t-field="o.date_invoice"/>
+                            </div>
+                            <div class="senoresx">
+                                Senor: <span t-field="o.date_invoice"/>
+                            </div>
+-->
+                            <!--
+                            <div class="direccionx">
+                                Direccion: <span t-field="o.date_invoice"/>
+                            </div>
+                            <div class="rucx">
+                                RUC: <span t-field="o.date_invoice"/>
+                            </div>
+                            <div class="remisionx">
+                                Remision: <span t-field="o.date_invoice"/>
+                            </div>
+                            -->
+<!--
+                            <div class="puntox1">
+                                <p>.</p>
+                            </div>
+                            <div class="puntox2">
+                                <p>.</p>
+                            </div>
+                            <div class="puntox3">
+                                <p>.</p>
+                            </div>
+-->
+
+
+
+<!-- Ivan Caceres ################################################################################################################### -->
+
+                            <!-- aqui empieza el purete -->
+
+                            <div class="fecha001">
+                                Fecha: <span t-field="o.date_invoice"/>
+                            </div>
+
+                            <div class="senores001">
+                                <t t-if="o.partner_id.parent_id">
+                                    <p> Nombre:
+                                    <t t-if="o.partner_id.nombre_fantasia">
+                                         <span t-field="o.partner_id.nombre_fantasia"/> de
+                                    </t>
+                                    <span t-field="o.partner_id.parent_id.name"/> </p>
+                                </t>
+                                <t t-elif="o.partner_id.nombre_fantasia">
+                                    <p> Nombre: <span t-field="o.partner_id.nombre_fantasia"/> de  <span t-field="o.partner_id.name"/> </p>
+                                </t>
+
+                                <t t-else="">
+                                    <p> Nombre: <span t-field="o.partner_id.name"/> </p>
+                                </t>
+                            </div>
+                            <div class="direccion001">
+                                <p> Direccion: <span t-field="o.partner_id.contact_address"/> </p>
+                            </div>
+
+                            <div class="ruc001">
+                                Ruc: <span t-field="o.ruc_factura"/>
+                            </div>
+
+                            <div class="remisionnumero001">
+                                Nota de Remision Num.: FALTA
+                            </div>
+
+                            <div class="condicion001">
+                                <t t-if= " o.tipo_comprobante == '2'">
+                                    Venta: Credito
+                                </t>
+                                <t t-else="">
+                                    Venta: Contado
+                                </t>
+
+                            </div>
+
+                            <div class="telefono001">
+                                Telefono: <span t-field="o.partner_id.phone"/>
+                            </div>
+
+                            <div class="cliente001">
+                                <t t-if="o.partner_id.parent_id">
+                                    <p> Cliente:
+                                    <t t-if="o.partner_id.nombre_fantasia">
+                                         <span t-field="o.partner_id.nombre_fantasia"/> de
+                                    </t>
+                                    <span t-field="o.partner_id.parent_id.name"/> </p>
+                                </t>
+                                <t t-elif="o.partner_id.nombre_fantasia">
+                                    <p> Cliente: <span t-field="o.partner_id.nombre_fantasia"/> de  <span t-field="o.partner_id.name"/> </p>
+                                </t>
+
+                                <t t-else="">
+                                    <p> Cliente: <span t-field="o.partner_id.name"/> </p>
+                                </t>
+                            </div>
+
+                            <div class="oc001">
+                                O.C.: FALTA
+                            </div>
+
+                            <div class="vendedor001">
+                                Vendedor: FALTA
+                            </div>
+
+                            <!-- prueba de tabla -->
+
+                            <table class="tabla_productos-1">
+                            <thead>
+                                <th></th> <!--Codigo-->
+                                <th></th> <!--Cantidad-->
+                                <th></th> <!--Descripcion-->
+                                <th></th> <!--Unitario-->
+                                <th></th> <!--Excentas-->
+                                <th></th> <!--Iva 5%-->
+                                <th></th> <!--Iva 10%-->
+                            </thead>
+
+                            <t t-set="suma_exenta" t-value="0"/>
+                            <t t-set="suma_5_porciento" t-value="0"/>
+                            <t t-set="suma_10_porciento" t-value="0"/>
+                            <tbody>
+
+                                <t t-set="subtotalexenta1" t-value="0"/>
+                                <t t-set="subtotalcinco1" t-value="0"/>
+                                <t t-set="subtotaldiez1" t-value="0"/>
+
+
+
+                                <tr t-foreach="o.invoice_line_ids" t-as="p">
+                                    <!--Codigo producto original-->
+                                    <td ><span  t-field="p.product_id.barcode"></span></td>
+                                    <!--Cantidad original-->
+                                    <t t-set="var" t-value="p.quantity"/>
+                                    <t t-set="var2" t-value="int(var)"/>
+                                    <t t-set="var3" t-value="var-var2"/>
+                                    <t t-if="var3>0">
+                                        <td ><span  t-field="p.quantity"></span></td>
+                                    </t>
+                                    <t t-else="">
+                                        <td ><span t-esc="'%.0f'%(p.quantity)" t-field-options="{'widget':'Integer'}"></span></td>
+                                    </t>
+                                    <!--Descripcion original-->
+                                    <t t-if="len(p.product_id.name) &gt; 38">
+                                        <t t-set="descripcion" t-value="p.product_id.name"/>
+                                        <td><span  t-esc="descripcion[:37]"></span></td>
+                                    </t>
+                                    <t t-else="">
+                                        <td><span  t-field="p.product_id.name"></span></td>
+                                    </t>
+                                    <!--Precion Unitario original-->
+                                    <td ><span  t-esc="o.agregar_punto_de_miles(p.price_unit)" ></span></td>
+                                    <!--Exenta original-->
+                                    <t t-set="exenta" t-value="0"/>
+                                        <t t-set="exenta" t-value="p.price_unit * p.quantity"/>
+
+
+
+
+
+
+
+                                        <t t-if= " o.vercadenaexenta(p.invoice_line_tax_ids.name) == 'ok'">
+
+                                            <td ><span  t-esc="o.agregar_punto_de_miles(o.sacacoma(exenta))"></span></td>
+
+                                            <t t-set="subtotalexenta1" t-value="subtotalexenta1 + exenta"/>
+
+                                        </t>
+
+                                        <t t-if= " o.vercadenaexenta(p.invoice_line_tax_ids.name) == 'nook'">
+                                            <td>0</td>
+                                        </t>
+
+                                    <!--5% original-->
+                                    <t t-set="cinco" t-value="0"/>
+                                        <t t-set="cinco" t-value="p.price_unit * p.quantity"/>
+
+
+
+
+
+                                        <t t-if= " o.vercadenacinco(p.invoice_line_tax_ids.name) == 'ok'">
+
+
+                                            <t t-set="subtotalcinco1" t-value="subtotalcinco1 + cinco"/>
+
+
+                                            <td ><span  t-esc="o.agregar_punto_de_miles(o.sacacoma(cinco))"></span></td>
+                                        </t>
+
+                                        <t t-if= " o.vercadenacinco(p.invoice_line_tax_ids.name) == 'nook'">
+                                            <td>0</td>
+                                        </t>
+                                    <!--10% original-->
+                                    <t t-set="diez" t-value="0"/>
+                                        <t t-set="diez" t-value="p.price_unit * p.quantity"/>
+
+
+                                        <t t-if= " o.vercadenadiez(p.invoice_line_tax_ids.name) == 'ok'">
+                                            <td ><span  t-esc="o.agregar_punto_de_miles(o.sacacoma(diez))"></span></td>
+
+                                            <t t-set="subtotaldiez1" t-value="subtotaldiez1 + diez"/>
+
+                                        </t>
+
+                                        <t t-if= " o.vercadenadiez(p.invoice_line_tax_ids.name) == 'nook'">
+                                            <td>0</td>
+                                        </t>
+                                </tr>
+                             </tbody>
+                            </table>
+
+                            <div class="te">
+                                <span  t-esc="o.agregar_punto_de_miles(o.sacacoma(subtotalexenta1))"></span>
+                            </div>
+
+                            <div class="t5">
+                                <span  t-esc="o.agregar_punto_de_miles(o.sacacoma(subtotalcinco1))"></span>
+                            </div>
+
+                            <div class="t10">
+                                <span  t-esc="o.agregar_punto_de_miles(o.sacacoma(subtotaldiez1))"></span>
+                            </div>
+
+
+                            <t t-set="totalennumero" t-value="0"/>
+                            <t t-set="totalennumero" t-value="totalennumero + subtotalexenta1"/>
+                            <t t-set="totalennumero" t-value="totalennumero + subtotalcinco1"/>
+                            <t t-set="totalennumero" t-value="totalennumero + subtotaldiez1"/>
+
+                            <div class="totalapagar">
+                                <span  t-esc="o.agregar_punto_de_miles(o.sacacoma(totalennumero))"></span>
+                            </div>
+
+                            <div class="letra">
+                                <span  t-esc="o.calcular_letras(totalennumero)"></span>
+                            </div>
+
+
+                            <!-- calculo los iva5, iva10 y la suma -->
+
+                            <t t-set="iva5t" t-value="0"/>
+                            <t t-set="iva10t" t-value="0"/>
+                            <t t-set="ivasuma" t-value="0"/>
+
+                            <t t-set="iva5t" t-value="subtotalcinco1 / 21"/>
+                            <t t-set="iva10t" t-value="subtotaldiez1 / 11"/>
+                            <t t-set="ivasuma" t-value="iva5t + iva10t"/>
+
+                            <div class="cincoport">
+                                <span  t-esc="o.agregar_punto_de_miles(o.sacacoma(o.redondeo(iva5t)))"></span>
+                            </div>
+
+                            <div class="diezport">
+                                <span  t-esc="o.agregar_punto_de_miles(o.sacacoma(o.redondeo(iva10t)))"></span>
+                            </div>
+
+                            <div class="total">
+                                <span  t-esc="o.agregar_punto_de_miles(o.sacacoma(o.redondeo(ivasuma)))"></span>
+                            </div>
+
+
+<!-- ivan Caceres ######################################################################################################################3 -->
+
+
+
+                            <!-- hasta aqui purete papaaaa -->
+
+
+
+
+                            <!-- aqui el cuadro de los detalles -->
+<!--
+
+                            <table class="codigo001">
+                                <div>
+                                <tr t-foreach="o.invoice_line_ids" t-as="p">
+
+                                    <td ><span  t-esc="p.product_id.barcode"></span></td>
+
+                                </tr>
+                                </div>
+                            </table>
+
+
+                            <table class="cant001">
+                                <div>
+                                <tr t-foreach="o.invoice_line_ids" t-as="p">
+
+                                    <td ><span  t-esc="o.sacacoma(p.quantity)"></span></td>
+
+                                </tr>
+                                </div>
+                            </table>
+
+                            <table class="descrip001">
+                                <div>
+                                <tr t-foreach="o.invoice_line_ids" t-as="p">
+
+                                    <td ><span  t-field="p.product_id.product_tmpl_id.name"></span></td>
+
+
+                                 </tr>
+                                </div>
+                            </table>
+
+                            <table class="preuni001">
+                                <div>
+                                <tr t-foreach="o.invoice_line_ids" t-as="p">
+
+
+                                    <td ><span  t-esc="o.sacacoma(p.price_unit)"></span></td>
+                                </tr>
+                                </div>
+
+                            </table>
+
+
+
+
+                            <t t-set="subtotalexenta1" t-value="0"/>
+                            <table class="exenta001">
+                                <div>
+                                    <tr t-foreach="o.invoice_line_ids" t-as="p">
+                                        <t t-set="exenta" t-value="0"/>
+                                        <t t-set="exenta" t-value="p.price_unit * p.quantity"/>
+
+
+
+
+                                        <t t-if= " o.vercadenaexenta(p.invoice_line_tax_ids.name) == 'ok'">
+
+                                            <td ><span  t-esc="o.agregar_punto_de_miles(o.sacacoma(exenta))"></span></td>
+                                            <t t-set="subtotalexenta1" t-value="subtotalexenta1 + exenta"/>
+                                        </t>
+
+                                        <t t-if= " o.vercadenaexenta(p.invoice_line_tax_ids.name) == 'nook'">
+                                            <td>0</td>
+                                        </t>
+
+
+                                    </tr>
+                                </div>
+                            </table>
+
+                            <div class="te001">
+                                <span  t-esc="o.agregar_punto_de_miles(o.sacacoma(subtotalexenta1))"></span>
+                            </div>
+
+
+                            <t t-set="subtotalcinco1" t-value="0"/>
+                            <table class="cincopor001">
+                                <div>
+                                    <tr t-foreach="o.invoice_line_ids" t-as="p">
+
+                                        <t t-set="cinco" t-value="0"/>
+                                        <t t-set="cinco" t-value="p.price_unit * p.quantity"/>
+
+
+                                        <t t-if= " o.vercadenacinco(p.invoice_line_tax_ids.name) == 'ok'">
+
+                                            <t t-set="subtotalcinco1" t-value="subtotalcinco1 + cinco"/>
+                                            <td ><span  t-esc="o.agregar_punto_de_miles(o.sacacoma(cinco))"></span></td>
+                                        </t>
+
+                                        <t t-if= " o.vercadenacinco(p.invoice_line_tax_ids.name) == 'nook'">
+                                            <td>0</td>
+                                        </t>
+
+
+                                    </tr>
+                                </div>
+                            </table>
+
+
+
+
+                            <div class="t5001">
+                                <span  t-esc="o.agregar_punto_de_miles(o.sacacoma(subtotalcinco1))"></span>
+                            </div>
+
+
+                            <t t-set="subtotaldiez1" t-value="0"/>
+                            <table class="diezpor001">
+                                <div>
+                                    <tr t-foreach="o.invoice_line_ids" t-as="p">
+                                        <t t-set="diez" t-value="0"/>
+                                        <t t-set="diez" t-value="p.price_unit * p.quantity"/>
+
+
+                                        <t t-if= " o.vercadenadiez(p.invoice_line_tax_ids.name) == 'ok'">
+                                            <td ><span  t-esc="o.agregar_punto_de_miles(o.sacacoma(diez))"></span></td>
+                                            <t t-set="subtotaldiez1" t-value="subtotaldiez1 + diez"/>
+                                        </t>
+
+                                        <t t-if= " o.vercadenadiez(p.invoice_line_tax_ids.name) == 'nook'">
+                                            <td>0</td>
+                                        </t>
+
+
+                                    </tr>
+                                </div>
+                            </table>
+
+                            <div class="t10001">
+                                <span  t-esc="o.agregar_punto_de_miles(o.sacacoma(subtotaldiez1))"></span>
+                            </div>
+
+                            <t t-set="totalennumero" t-value="0"/>
+                            <t t-set="totalennumero" t-value="totalennumero + subtotalexenta1"/>
+                            <t t-set="totalennumero" t-value="totalennumero + subtotalcinco1"/>
+                            <t t-set="totalennumero" t-value="totalennumero + subtotaldiez1"/>
+
+                            <div class="totalapagar001">
+                                <span  t-esc="o.agregar_punto_de_miles(o.sacacoma(totalennumero))"></span>
+                            </div>
+
+                            <div class="letra001">
+                                <span  t-esc="o.calcular_letras(totalennumero)"></span>
+                            </div>
+-->
+
+                            <!-- calculo los iva5, iva10 y la suma -->
+<!--
+                            <t t-set="iva5t" t-value="0"/>
+                            <t t-set="iva10t" t-value="0"/>
+                            <t t-set="ivasuma" t-value="0"/>
+
+                            <t t-set="iva5t" t-value="subtotalcinco1 / 21"/>
+                            <t t-set="iva10t" t-value="subtotaldiez1 / 11"/>
+                            <t t-set="ivasuma" t-value="iva5t + iva10t"/>
+
+                            <div class="cincoport001">
+                                <span  t-esc="o.agregar_punto_de_miles(o.sacacoma(o.redondeo(iva5t)))"></span>
+                            </div>
+
+                            <div class="diezport001">
+                                <span  t-esc="o.agregar_punto_de_miles(o.sacacoma(o.redondeo(iva10t)))"></span>
+                            </div>
+
+                            <div class="total001">
+                                <span  t-esc="o.agregar_punto_de_miles(o.sacacoma(o.redondeo(ivasuma)))"></span>
+                            </div>
+
+-->
+
+
+<!--
+                            <div class="punto4">
+                                .
+                            </div>
+                            <div class="punto5">
+                                .
+                            </div>
+                            <div class="punto6">
+                                .
+                            </div>
+                            <div class="punto7">
+                                .
+                            </div>
+                            <div class="punto8">
+                                .
+                            </div>
+                            <div class="punto9">
+                                .
+                            </div>
+                            <div class="punto10">
+                                .
+                            </div>
+                            <div class="punto11">
+                                .
+                            </div>
+                            <div class="punto12">
+                                .
+                            </div>
+                            <div class="punto4">
+                                .
+                            </div>
+                            <div class="punto5">
+                                .
+                            </div>
+                            <div class="punto6">
+                                .
+                            </div>
+                            <div class="punto7">
+                                .
+                            </div>
+                            <div class="punto8">
+                                .
+                            </div>
+                            <div class="punto9">
+                                .
+                            </div>
+                            <div class="punto10">
+                                .
+                            </div>
+                            <div class="punto11">
+                                .
+                            </div>
+                            <div class="punto12">
+                                .
+                            </div>
+                            <div class="punto13">
+                                .
+                            </div>
+                            <div class="punto14">
+                                .
+                            </div>
+                            <div class="punto15">
+                                .
+                            </div>
+                            <div class="punto16">
+                                .
+                            </div>
+                            <div class="punto17">
+                                .
+                            </div>
+                            <div class="punto18">
+                                .
+                            </div>
+
+                            <div class="punto19">
+                                .
+                            </div>
+                            <div class="punto20">
+                                .
+                            </div>
+                            <div class="punto21">
+                                .
+                            </div>
+                            <div class="punto22">
+                                .
+                            </div>
+                          -->
+                            <!-- jojo -->
+
+<!--
+                            <div class="punto31">
+                                .
+                            </div>
+                            <div class="punto32">
+                                .
+                            </div>
+                            <div class="punto33">
+                                .
+                            </div>
+                            <div class="punto34">
+                                .
+                            </div>
+                            <div class="punto35">
+                                .
+                            </div>
+                            <div class="punto36">
+                                .
+                            </div>
+                            <div class="punto37">
+                                .
+                            </div>
+                            <div class="punto38">
+                                .
+                            </div>
+                            <div class="punto39">
+                                .
+                            </div>
+-->
+
+
+                            <!-- Datos estaticos -->
+<!--
+                            <div class="fecha01">
+                                fecha
+                            </div>
+                            <div class="senores01">
+                                senor
+                            </div>
+                            <div class="direccion01">
+                                direccion
+                            </div>
+                            <div class="ruc01">
+                                ruc
+                            </div>
+                            <div class="remisionnumero01">
+                                remisionnumero
+                            </div>
+                            <div class="condicion01">
+                                condicion
+                            </div>
+                            <div class="telefono01">
+                                telefono
+                            </div>
+                            <div class="cliente01">
+                                cliente
+                            </div>
+                            <div class="oc01">
+                                oc
+                            </div>
+                            <div class="vendedor01">
+                                vendedor
+                            </div>
+
+
+
+                            <div class="codigo01">
+                                codigo
+                            </div>
+                            <div class="cant01">
+                                cant
+                            </div>
+                            <div class="detalle01">
+                                detalle
+                            </div>
+                            <div class="preciounitario01">
+                                precio
+                            </div>
+                            <div class="exenta01">
+                                exenta
+                            </div>
+                            <div class="cinco01">
+                                iva5
+                            </div>
+                            <div class="diez01">
+                                iva10
+                            </div>
+                            <div class="letra01">
+                                un millon doscientos cuarenta y nueve mil quiniestos
+                            </div>
+                            <div class="direccionenvio01">
+                                direccion
+                            </div>
+                            <div class="recibidopor01">
+                                recibido por
+                            </div>
+                            <div class="nota01">
+                                nota
+                            </div>
+                            <div class="aclaracion01">
+                                aclaracion
+                            </div>
+                            <div class="ci01">
+                                1235455
+                            </div>
+                            <div class="valorparcialexenta01">
+                                exenta
+                            </div>
+                            <div class="valorparcialcinco01">
+                                valor5
+                            </div>
+                            <div class="valorparcialdiez01">
+                                valor10
+                            </div>
+                            <div class="numero01">
+                                1.249.000
+                            </div>
+                            <div class="liqivacinco01">
+                                iva5
+                            </div>
+                            <div class="liqivadiez01">
+                                iva10
+                            </div>
+                            <div class="total01">
+                                ivat
+                            </div>
+-->
+                            <!-- -->
+
+
+
+
+
+                        </div>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>

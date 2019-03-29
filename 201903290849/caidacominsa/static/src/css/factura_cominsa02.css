@@ -1,0 +1,494 @@
+.contenedor{
+    font-size:18px;
+    font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";
+    /*border: solid black 10px;*/
+    width: 15cm;
+    /*height: 16.4cm;*/
+    /*font-family:  "DejaVu Serif", "STIX", serif;*/
+}
+.hoja{
+    position: absolute;
+    left: 21.4cm;
+    top: 30.4cm;
+}
+/*la primera hoja*/
+.fecha01{
+    position: absolute;
+    left: 6.2cm;
+    top: 2.4cm;
+}
+.senores01{
+    position: absolute;
+    left: 6.5cm;
+    top: 2.75cm;
+}
+.direccion01{
+    position: absolute;
+    left: 6.5cm;
+    top: 3.1cm;
+}
+.ruc01{
+    position: absolute;
+    left: 6.2cm;
+    top: 3.45cm;
+}
+.remisionnumero01{
+    position: absolute;
+    left: 6.9cm;
+    top: 3.8cm;
+}
+.condicion01{
+    position: absolute;
+    left: 13.5cm;
+    top: 2.8cm;
+}
+.telefono01{
+    position: absolute;
+    left: 13.3cm;
+    top: 3.45cm;
+}
+.cliente01{
+    position: absolute;
+    left: 13cm;
+    top: 3.8cm;
+}
+.oc01{
+    position: absolute;
+    left: 16.8cm;
+    top: 3.45cm;
+}
+.vendedor01{
+    position: absolute;
+    left: 18cm;
+    top: 3.8cm;
+}
+
+
+/*.codigo01{*/
+    /*position: absolute;*/
+    /*left: 1cm;*/
+    /*top: 3.8cm;*/
+/*}*/
+/*.cant01{*/
+    /*position: absolute;*/
+    /*left: 2.8cm;*/
+    /*top: 3.8cm;*/
+/*}*/
+/*.detalle01{*/
+    /*position: absolute;*/
+    /*left: 4.2cm;*/
+    /*top: 3.8cm;*/
+/*}*/
+/*.preciounitario01{*/
+    /*position: absolute;*/
+    /*left: 14.2cm;*/
+    /*top: 3.8cm;*/
+/*}*/
+/*.exenta01{*/
+    /*position: absolute;*/
+    /*left: 15.2cm;*/
+    /*top: 3.8cm;*/
+/*}*/
+/*.cinco01{*/
+    /*position: absolute;*/
+    /*left: 17.2cm;*/
+    /*top: 3.8cm;*/
+/*}*/
+/*.diez01{*/
+    /*position: absolute;*/
+    /*left: 18.2cm;*/
+    /*top: 3.8cm;*/
+/*}*/
+/*.letra01{*/
+    /*position: absolute;*/
+    /*left: 3.2cm;*/
+    /*top: 7.6cm;*/
+/*}*/
+/*.direccionenvio01{*/
+    /*position: absolute;*/
+    /*left: 2.1cm;*/
+    /*top: 7.8cm;*/
+/*}*/
+/*.recibidopor01{*/
+    /*position: absolute;*/
+    /*left: 2.5cm;*/
+    /*top: 8cm;*/
+/*}*/
+/*.nota01{*/
+    /*position: absolute;*/
+    /*left: 1.6cm;*/
+    /*top: 8.2cm;*/
+/*}*/
+/*.aclaracion01{*/
+    /*position: absolute;*/
+    /*left: 6.1cm;*/
+    /*top: 8.25cm;*/
+/*}*/
+/*.ci01{*/
+    /*position: absolute;*/
+    /*left: 9.1cm;*/
+    /*top: 8.25cm;*/
+/*}*/
+/*.valorparcialexenta01{*/
+    /*position: absolute;*/
+    /*left: 15.2cm;*/
+    /*top: 7.85cm;*/
+/*}*/
+/*.valorparcialcinco01{*/
+    /*position: absolute;*/
+    /*left: 17.2cm;*/
+    /*top: 7.85cm;*/
+/*}*/
+/*.valorparcialdiez01{*/
+    /*position: absolute;*/
+    /*left: 18cm;*/
+    /*top: 7.85cm;*/
+/*}*/
+/*.numero01{*/
+    /*position: absolute;*/
+    /*left: 17.6cm;*/
+    /*top: 8.15cm;*/
+/*}*/
+/*.liqivacinco01{*/
+    /*position: absolute;*/
+    /*left: 14cm;*/
+    /*top: 8.4cm;*/
+/*}*/
+/*.liqivadiez01{*/
+    /*position: absolute;*/
+    /*left: 15.6cm;*/
+    /*top: 8.4cm;*/
+/*}*/
+/*.total01{*/
+    /*position: absolute;*/
+    /*left: 17.4cm;*/
+    /*top: 8.4cm;*/
+/*}*/
+
+/*!*la segunda hoja*!*/
+
+/*.fecha02{*/
+    /*position: absolute;*/
+    /*left: 5.6cm;*/
+    /*top: 11.9cm;*/
+/*}*/
+/*.senores02{*/
+    /*position: absolute;*/
+    /*left: 10.7cm;*/
+    /*top: 12.2cm;*/
+/*}*/
+/*.direccion02{*/
+    /*position: absolute;*/
+    /*left: 6.2cm;*/
+    /*top: 12.45cm;*/
+/*}*/
+/*.ruc02{*/
+    /*position: absolute;*/
+    /*left: 5.5cm;*/
+    /*top: 12.7cm;*/
+/*}*/
+
+/*.remisionnumero02{*/
+    /*position: absolute;*/
+    /*left: 6.5cm;*/
+    /*top: 13cm;*/
+/*}*/
+
+/*.condicion02{*/
+    /*position: absolute;*/
+    /*left: 10.7cm;*/
+    /*top: 11.9cm;*/
+/*}*/
+/*.telefono02{*/
+    /*position: absolute;*/
+    /*left: 10.6cm;*/
+    /*top: 12.7cm;*/
+/*}*/
+/*.cliente02{*/
+    /*position: absolute;*/
+    /*left: 10.3cm;*/
+    /*top: 13cm;*/
+/*}*/
+/*.oc02{*/
+    /*position: absolute;*/
+    /*left: 13.5cm;*/
+    /*top: 12.7cm;*/
+/*}*/
+/*.vendedor02{*/
+    /*position: absolute;*/
+    /*left: 14.5cm;*/
+    /*top: 13cm;*/
+/*}*/
+/*.codigo02{*/
+    /*position: absolute;*/
+    /*left: 1cm;*/
+    /*top: 13.7cm;*/
+/*}*/
+/*.cant02{*/
+    /*position: absolute;*/
+    /*left: 2.8cm;*/
+    /*top: 13.7cm;*/
+/*}*/
+/*.detalle02{*/
+    /*position: absolute;*/
+    /*left: 4.2cm;*/
+    /*top: 13.7cm;*/
+/*}*/
+/*.preciounitario02{*/
+    /*position: absolute;*/
+    /*left: 14.2cm;*/
+    /*top: 13.7cm;*/
+/*}*/
+/*.exenta02{*/
+    /*position: absolute;*/
+    /*left: 15.2cm;*/
+    /*top: 13.7cm;*/
+/*}*/
+/*.cinco02{*/
+    /*position: absolute;*/
+    /*left: 17.2cm;*/
+    /*top: 13.7cm;*/
+/*}*/
+/*.diez02{*/
+    /*position: absolute;*/
+    /*left: 18.2cm;*/
+    /*top: 13.7cm;*/
+/*}*/
+/*.letra02{*/
+    /*position: absolute;*/
+    /*left: 3.2cm;*/
+    /*top: 17.7cm;*/
+/*}*/
+/*.direccionenvio02{*/
+    /*position: absolute;*/
+    /*left: 2.1cm;*/
+    /*top: 17.9cm;*/
+/*}*/
+/*.recibidopor02{*/
+    /*position: absolute;*/
+    /*left: 2.5cm;*/
+    /*top: 18.1cm;*/
+/*}*/
+/*.nota02{*/
+    /*position: absolute;*/
+    /*left: 1.6cm;*/
+    /*top: 18.3cm;*/
+/*}*/
+/*.aclaracion02{*/
+    /*position: absolute;*/
+    /*left: 6.1cm;*/
+    /*top: 18.1cm;*/
+/*}*/
+/*.ci02{*/
+    /*position: absolute;*/
+    /*left: 9.1cm;*/
+    /*top: 18.1cm;*/
+/*}*/
+/*.valorparcialexenta02{*/
+    /*position: absolute;*/
+    /*left: 15.2cm;*/
+    /*top: 17.7cm;*/
+/*}*/
+/*.valorparcialcinco02{*/
+    /*position: absolute;*/
+    /*left: 17.2cm;*/
+    /*top: 17.7cm;*/
+/*}*/
+/*.valorparcialdiez02{*/
+    /*position: absolute;*/
+    /*left: 18cm;*/
+    /*top: 17.7cm;*/
+/*}*/
+/*.numero02{*/
+    /*position: absolute;*/
+    /*left: 17.6cm;*/
+    /*top: 17.95cm;*/
+/*}*/
+/*.liqivacinco02{*/
+    /*position: absolute;*/
+    /*left: 14cm;*/
+    /*top: 18.3cm;*/
+/*}*/
+/*.liqivadiez02{*/
+    /*position: absolute;*/
+    /*left: 15.6cm;*/
+    /*top: 18.3cm;*/
+/*}*/
+/*.total02{*/
+    /*position: absolute;*/
+    /*left: 17.4cm;*/
+    /*top: 18.3cm;*/
+/*}*/
+
+/*!*la tercera hoja*!*/
+
+/*.fecha03{*/
+    /*position: absolute;*/
+    /*left: 5.6cm;*/
+    /*top: 21.8cm;*/
+/*}*/
+/*.senores03{*/
+    /*position: absolute;*/
+    /*left: 6.2cm;*/
+    /*top: 22.05cm;*/
+/*}*/
+/*.direccion03{*/
+    /*position: absolute;*/
+    /*left: 6.2cm;*/
+    /*top: 22.3cm;*/
+/*}*/
+/*.ruc03{*/
+    /*position: absolute;*/
+    /*left: 5.5cm;*/
+    /*top: 22.6cm;*/
+/*}*/
+
+/*.remisionnumero03{*/
+    /*position: absolute;*/
+    /*left: 6.5cm;*/
+    /*top: 22.9cm;*/
+/*}*/
+
+/*.condicion03{*/
+    /*position: absolute;*/
+    /*left: 10.7cm;*/
+    /*top: 21.8cm;*/
+/*}*/
+/*.telefono03{*/
+    /*position: absolute;*/
+    /*left: 10.6cm;*/
+    /*top: 22.6cm;*/
+/*}*/
+/*.cliente03{*/
+    /*position: absolute;*/
+    /*left: 10.3cm;*/
+    /*top: 22.9cm;*/
+/*}*/
+/*.oc03{*/
+    /*position: absolute;*/
+    /*left: 13.5cm;*/
+    /*top: 22.6cm;*/
+/*}*/
+/*.vendedor03{*/
+    /*position: absolute;*/
+    /*left: 14.5cm;*/
+    /*top: 22.9cm;*/
+/*}*/
+/*.codigo03{*/
+    /*position: absolute;*/
+    /*left: 1cm;*/
+    /*top: 23.5cm;*/
+/*}*/
+/*.cant03{*/
+    /*position: absolute;*/
+    /*left: 2.8cm;*/
+    /*top: 23.5cm;*/
+/*}*/
+/*.detalle03{*/
+    /*position: absolute;*/
+    /*left: 4.2cm;*/
+    /*top: 23.5cm;*/
+/*}*/
+/*.preciounitario03{*/
+    /*position: absolute;*/
+    /*left: 14.2cm;*/
+    /*top: 23.5cm;*/
+/*}*/
+/*.exenta03{*/
+    /*position: absolute;*/
+    /*left: 15.2cm;*/
+    /*top: 23.5cm;*/
+/*}*/
+/*.cinco03{*/
+    /*position: absolute;*/
+    /*left: 17.2cm;*/
+    /*top: 23.5cm;*/
+/*}*/
+/*.diez03{*/
+    /*position: absolute;*/
+    /*left: 18.2cm;*/
+    /*top: 23.5cm;*/
+/*}*/
+/*.letra03{*/
+    /*position: absolute;*/
+    /*left: 3.2cm;*/
+    /*top: 27.5cm;*/
+/*}*/
+/*.direccionenvio03{*/
+    /*position: absolute;*/
+    /*left: 2.1cm;*/
+    /*top: 27.7cm;*/
+/*}*/
+/*.recibidopor03{*/
+    /*position: absolute;*/
+    /*left: 2.5cm;*/
+    /*top: 27.9cm;*/
+/*}*/
+/*.nota03{*/
+    /*position: absolute;*/
+    /*left: 1.6cm;*/
+    /*top: 28.1cm;*/
+/*}*/
+/*.aclaracion03{*/
+    /*position: absolute;*/
+    /*left: 6.1cm;*/
+    /*top: 27.9cm;*/
+/*}*/
+/*.ci03{*/
+    /*position: absolute;*/
+    /*left: 9.1cm;*/
+    /*top: 27.9cm;*/
+/*}*/
+/*.valorparcialexenta03{*/
+    /*position: absolute;*/
+    /*left: 15.2cm;*/
+    /*top: 27.5cm;*/
+/*}*/
+/*.valorparcialcinco03{*/
+    /*position: absolute;*/
+    /*left: 17.2cm;*/
+    /*top: 27.5cm;*/
+/*}*/
+/*.valorparcialdiez03{*/
+    /*position: absolute;*/
+    /*left: 18cm;*/
+    /*top: 27.5cm;*/
+/*}*/
+/*.numero03{*/
+    /*position: absolute;*/
+    /*left: 17.6cm;*/
+    /*top: 27.9cm;*/
+/*}*/
+/*.liqivacinco03{*/
+    /*position: absolute;*/
+    /*left: 14cm;*/
+    /*top: 28.1cm;*/
+/*}*/
+/*.liqivadiez03{*/
+    /*position: absolute;*/
+    /*left: 15.6cm;*/
+    /*top: 28.1cm;*/
+/*}*/
+/*.total03{*/
+    /*position: absolute;*/
+    /*left: 17.4cm;*/
+    /*top: 28.1cm;*/
+/*}*/
+
+.punto1{
+    position: absolute;
+    left: 10cm;
+    top: 10cm;
+}
+
+.punto2{
+    position: absolute;
+    left: 11.25cm;
+    top: 10cm;
+}
+
+.punto3{
+    position: absolute;
+    left: 10cm;
+    top: 11.25cm;
+}

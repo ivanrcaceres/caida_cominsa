@@ -1,0 +1,113 @@
+<odoo>
+    <template id="ticket_report_cominsa">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.basic_layout">
+                    <div class="page" >
+                        <link rel="stylesheet" href="/caidacominsa/static/src/css/ticket.css"/>
+
+                        <div class="">
+
+
+                            <div class="logocominsa">
+                                <img src='/caidacominsa/static/src/img/cominsapapu.jpg' style="max-height: 125px;" />
+                            </div>
+
+                            <div class="col-xs-4 ticket codigodebarra ">
+                                <img t-if="o.product_id.barcode" t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('EAN13', o.product_id.barcode, 600, 150)" style="width:220%;height:60%;"/>
+                            </div>
+
+                            <div class="numerocodigobarra">
+                                    <span t-field="o.product_id.barcode"/>
+                            </div>
+
+                            <div class="ref_interna">
+                                <span t-field="o.product_id.default_code"></span>
+                            </div>
+
+                            <div class="nombredelproducto">
+                                <span  t-esc="o.nombre01()"></span>
+                            </div>
+
+                            <div class="hechoen">
+                                <p>HECHO EN PARAGUAY</p>
+                            </div>
+
+                            <div class="nombredeop">
+                                <span t-field="o.name"/>
+                            </div>
+
+                            <div class="fechadeemision">
+                                <span t-esc="o.fechadeemi()"></span>
+                            </div>
+
+
+
+                            <!--<table class="nombredelproducto">-->
+                              <!--<tr>-->
+                                <!--&lt;!&ndash;<th>Month</th>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<th>Savings</th>&ndash;&gt;-->
+                              <!--</tr>-->
+                              <!--<tr>-->
+                                <!--<td><span  t-esc="o.nombre01()"></span></td>-->
+                                <!--&lt;!&ndash;<td>$100</td>&ndash;&gt;-->
+                              <!--</tr>-->
+                              <!--<tr>-->
+                                <!--<td>-->
+                                    <!--<div class="col-xs-4 ticket">-->
+                                            <!--<img t-if="o.product_id.barcode" t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('EAN13', o.product_id.barcode, 600, 150)" style="width:100%;height:50%;"/>-->
+                                            <!--<span t-field="o.product_id.barcode"/>-->
+                                            <!--<br/>-->
+                                    <!--</div>-->
+
+                                <!--</td>-->
+                                <!--&lt;!&ndash;<td>$80</td>&ndash;&gt;-->
+                              <!--</tr>-->
+                            <!--</table>-->
+
+
+                            <!-- hoja dos -->
+
+                            <div class="logocominsa02">
+                                <img src='/caidacominsa/static/src/img/cominsapapu.jpg' style="max-height: 125px;" />
+                            </div>
+
+                            <div class="col-xs-4 ticket codigodebarra02 ">
+                                <img t-if="o.product_id.barcode" t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('EAN13', o.product_id.barcode, 600, 150)" style="width:220%;height:60%;"/>
+                            </div>
+
+                            <div class="ref_interna02">
+                                <span t-field="o.product_id.default_code"></span>
+                            </div>
+
+                            <div class="nombredelproducto02">
+                                <span  t-esc="o.nombre01()"></span>
+                            </div>
+
+                            <div class="numerocodigobarra02">
+                                    <span t-field="o.product_id.barcode"/>
+                            </div>
+
+                            <div class="hechoen02">
+                                <p>HECHO EN PARAGUAY</p>
+                            </div>
+
+                            <div class="nombredeop02">
+                                <span t-field="o.name"/>
+                            </div>
+
+                            <div class="fechadeemision02">
+                                <span t-esc="o.fechadeemi()"></span>
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>

@@ -1,0 +1,817 @@
+/*.contenedor{*/
+    /*font-size:10px;*/
+    /*font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";*/
+    /*!*border: solid black 10px;*!*/
+    /*!*width: 21.65cm;*!*/
+    /*!*height: 16.4cm;*!*/
+    /*!*font-family:  "DejaVu Serif", "STIX", serif;*!*/
+
+/*}*/
+
+.contenedor{
+    font-size:10px;
+    font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";
+    /*border: solid black 10px;*/
+    /*width: 21.65cm;*/
+    /*height: 16.4cm;*/
+    /*font-family:  "DejaVu Serif", "STIX", serif;*/
+
+}
+
+
+
+.hoja{
+    position: absolute;
+    left: 21.4cm;
+    top: 30.5cm;
+}
+
+/*la primera hoja*/
+
+.fecha01{
+    position: absolute;
+    left: 7cm;
+    top: 2.37cm;
+}
+.senores01{
+    position: absolute;
+    left: 7.7cm;
+    top: 2.6cm;
+}
+.direccion01{
+    position: absolute;
+    left: 7.7cm;
+    top: 3cm;
+}
+.ruc01{
+    position: absolute;
+    left: 6.8cm;
+    top: 3.37cm;
+}
+
+.remisionnumero01{
+    position: absolute;
+    left: 8.1cm;
+    top: 3.6cm;
+}
+
+.condicion01{
+    position: absolute;
+    left: 13.3cm;
+    top: 2.3cm;
+}
+.telefono01{
+    position: absolute;
+    left: 13.2cm;
+    top: 3.3cm;
+}
+.cliente01{
+    position: absolute;
+    left: 12.8cm;
+    top: 3.6cm;
+}
+.oc01{
+    position: absolute;
+    left: 16.8cm;
+    top: 3.3cm;
+}
+.vendedor01{
+    position: absolute;
+    left: 18.1cm;
+    top: 3.68cm;
+}
+
+/*lo de arriba ya esta*/
+
+.codigo01{
+    position: absolute;
+    left: 1.25cm;
+    top: 4.5cm;
+}
+.cant01{
+    position: absolute;
+    left: 3.5cm;
+    top: 4.5cm;
+}
+.detalle01{
+    position: absolute;
+    left: 5.25cm;
+    top: 4.5cm;
+}
+.preciounitario01{
+    position: absolute;
+    left: 17.75cm;
+    top: 4.5cm;
+}
+.exenta01{
+    position: absolute;
+    left: 19.75cm;
+    top: 4.5cm;
+}
+.cinco01{
+    position: absolute;
+    left: 21.5cm;
+    top: 4.5cm;
+}
+.diez01{
+    position: absolute;
+    left: 23.37cm;
+    top: 4.5cm;
+}
+.letra01{
+    position: absolute;
+    left: 4cm;
+    top: 10cm;
+}
+.direccionenvio01{
+    position: absolute;
+    left: 2.62cm;
+    top: 10.25cm;
+}
+.recibidopor01{
+    position: absolute;
+    left: 3.12cm;
+    top: 10.5cm;
+}
+.nota01{
+    position: absolute;
+    left: 2cm;
+    top: 10.81cm;
+}
+.aclaracion01{
+    position: absolute;
+    left: 7.62cm;
+    top: 10.5cm;
+}
+.ci01{
+    position: absolute;
+    left: 11.37cm;
+    top: 10.5cm;
+}
+.valorparcialexenta01{
+    position: absolute;
+    left: 19cm;
+    top: 10cm;
+}
+.valorparcialcinco01{
+    position: absolute;
+    left: 21.5cm;
+    top: 10cm;
+}
+.valorparcialdiez01{
+    position: absolute;
+    left: 22.5cm;
+    top: 10cm;
+}
+.numero01{
+    position: absolute;
+    left: 22cm;
+    top: 10.5cm;
+}
+.liqivacinco01{
+    position: absolute;
+    left: 17.5cm;
+    top: 10.8cm;
+}
+.liqivadiez01{
+    position: absolute;
+    left: 19.5cm;
+    top: 10.8cm;
+}
+.total01{
+    position: absolute;
+    left: 21.75cm;
+    top: 10.8cm;
+}
+
+/*la segunda hoja*/
+
+.fecha02{
+    position: absolute;
+    left: 5.6cm;
+    top: 11.9cm;
+}
+.senores02{
+    position: absolute;
+    left: 10.7cm;
+    top: 12.2cm;
+}
+.direccion02{
+    position: absolute;
+    left: 6.2cm;
+    top: 12.45cm;
+}
+.ruc02{
+    position: absolute;
+    left: 5.5cm;
+    top: 12.7cm;
+}
+
+.remisionnumero02{
+    position: absolute;
+    left: 6.5cm;
+    top: 13cm;
+}
+
+.condicion02{
+    position: absolute;
+    left: 10.7cm;
+    top: 11.9cm;
+}
+.telefono02{
+    position: absolute;
+    left: 10.6cm;
+    top: 12.7cm;
+}
+.cliente02{
+    position: absolute;
+    left: 10.3cm;
+    top: 13cm;
+}
+.oc02{
+    position: absolute;
+    left: 13.5cm;
+    top: 12.7cm;
+}
+.vendedor02{
+    position: absolute;
+    left: 14.5cm;
+    top: 13cm;
+}
+.codigo02{
+    position: absolute;
+    left: 1cm;
+    top: 13.7cm;
+}
+.cant02{
+    position: absolute;
+    left: 2.8cm;
+    top: 13.7cm;
+}
+.detalle02{
+    position: absolute;
+    left: 4.2cm;
+    top: 13.7cm;
+}
+.preciounitario02{
+    position: absolute;
+    left: 14.2cm;
+    top: 13.7cm;
+}
+.exenta02{
+    position: absolute;
+    left: 15.2cm;
+    top: 13.7cm;
+}
+.cinco02{
+    position: absolute;
+    left: 17.2cm;
+    top: 13.7cm;
+}
+.diez02{
+    position: absolute;
+    left: 18.2cm;
+    top: 13.7cm;
+}
+.letra02{
+    position: absolute;
+    left: 3.2cm;
+    top: 17.7cm;
+}
+.direccionenvio02{
+    position: absolute;
+    left: 2.1cm;
+    top: 17.9cm;
+}
+.recibidopor02{
+    position: absolute;
+    left: 2.5cm;
+    top: 18.1cm;
+}
+.nota02{
+    position: absolute;
+    left: 1.6cm;
+    top: 18.3cm;
+}
+.aclaracion02{
+    position: absolute;
+    left: 6.1cm;
+    top: 18.1cm;
+}
+.ci02{
+    position: absolute;
+    left: 9.1cm;
+    top: 18.1cm;
+}
+.valorparcialexenta02{
+    position: absolute;
+    left: 15.2cm;
+    top: 17.7cm;
+}
+.valorparcialcinco02{
+    position: absolute;
+    left: 17.2cm;
+    top: 17.7cm;
+}
+.valorparcialdiez02{
+    position: absolute;
+    left: 18cm;
+    top: 17.7cm;
+}
+.numero02{
+    position: absolute;
+    left: 17.6cm;
+    top: 17.95cm;
+}
+.liqivacinco02{
+    position: absolute;
+    left: 14cm;
+    top: 18.3cm;
+}
+.liqivadiez02{
+    position: absolute;
+    left: 15.6cm;
+    top: 18.3cm;
+}
+.total02{
+    position: absolute;
+    left: 17.4cm;
+    top: 18.3cm;
+}
+
+/*la tercera hoja*/
+
+.fecha03{
+    position: absolute;
+    left: 5.6cm;
+    top: 21.8cm;
+}
+.senores03{
+    position: absolute;
+    left: 6.2cm;
+    top: 22.05cm;
+}
+.direccion03{
+    position: absolute;
+    left: 6.2cm;
+    top: 22.3cm;
+}
+.ruc03{
+    position: absolute;
+    left: 5.5cm;
+    top: 22.6cm;
+}
+
+.remisionnumero03{
+    position: absolute;
+    left: 6.5cm;
+    top: 22.9cm;
+}
+
+.condicion03{
+    position: absolute;
+    left: 10.7cm;
+    top: 21.8cm;
+}
+.telefono03{
+    position: absolute;
+    left: 10.6cm;
+    top: 22.6cm;
+}
+.cliente03{
+    position: absolute;
+    left: 10.3cm;
+    top: 22.9cm;
+}
+.oc03{
+    position: absolute;
+    left: 13.5cm;
+    top: 22.6cm;
+}
+.vendedor03{
+    position: absolute;
+    left: 14.5cm;
+    top: 22.9cm;
+}
+.codigo03{
+    position: absolute;
+    left: 1cm;
+    top: 23.5cm;
+}
+.cant03{
+    position: absolute;
+    left: 2.8cm;
+    top: 23.5cm;
+}
+.detalle03{
+    position: absolute;
+    left: 4.2cm;
+    top: 23.5cm;
+}
+.preciounitario03{
+    position: absolute;
+    left: 14.2cm;
+    top: 23.5cm;
+}
+.exenta03{
+    position: absolute;
+    left: 15.2cm;
+    top: 23.5cm;
+}
+.cinco03{
+    position: absolute;
+    left: 17.2cm;
+    top: 23.5cm;
+}
+.diez03{
+    position: absolute;
+    left: 18.2cm;
+    top: 23.5cm;
+}
+.letra03{
+    position: absolute;
+    left: 3.2cm;
+    top: 27.5cm;
+}
+.direccionenvio03{
+    position: absolute;
+    left: 2.1cm;
+    top: 27.7cm;
+}
+.recibidopor03{
+    position: absolute;
+    left: 2.5cm;
+    top: 27.9cm;
+}
+.nota03{
+    position: absolute;
+    left: 1.6cm;
+    top: 28.1cm;
+}
+.aclaracion03{
+    position: absolute;
+    left: 6.1cm;
+    top: 27.9cm;
+}
+.ci03{
+    position: absolute;
+    left: 9.1cm;
+    top: 27.9cm;
+}
+.valorparcialexenta03{
+    position: absolute;
+    left: 15.2cm;
+    top: 27.5cm;
+}
+.valorparcialcinco03{
+    position: absolute;
+    left: 17.2cm;
+    top: 27.5cm;
+}
+.valorparcialdiez03{
+    position: absolute;
+    left: 18cm;
+    top: 27.5cm;
+}
+.numero03{
+    position: absolute;
+    left: 17.6cm;
+    top: 27.9cm;
+}
+.liqivacinco03{
+    position: absolute;
+    left: 14cm;
+    top: 28.1cm;
+}
+.liqivadiez03{
+    position: absolute;
+    left: 15.6cm;
+    top: 28.1cm;
+}
+.total03{
+    position: absolute;
+    left: 17.4cm;
+    top: 28.1cm;
+}
+
+.punto1{
+    position: absolute;
+    left: 10cm;
+    top: 10cm;
+}
+
+.punto2{
+    position: absolute;
+    left: 11cm;
+    top: 10cm;
+}
+
+.punto3{
+    position: absolute;
+    left: 10cm;
+    top: 11cm;
+}
+
+.punto4{
+    position: absolute;
+    left: 0cm;
+    top: 0cm;
+}
+
+.punto5{
+    position: absolute;
+    left: 0cm;
+    top: 1cm;
+}
+.punto6{
+    position: absolute;
+    left: 0cm;
+    top: 2cm;
+}
+.punto7{
+    position: absolute;
+    left: 1cm;
+    top: 0cm;
+}
+
+.punto8{
+    position: absolute;
+    left: 1cm;
+    top: 1cm;
+}
+
+.punto9{
+    position: absolute;
+    left: 1cm;
+    top: 2cm;
+}
+.punto10{
+    position: absolute;
+    left: 2cm;
+    top: 0cm;
+}
+.punto11{
+    position: absolute;
+    left: 2cm;
+    top: 1cm;
+}
+
+.punto12{
+    position: absolute;
+    left: 2cm;
+    top: 2cm;
+}
+
+.punto13{
+    position: absolute;
+    left: 0.1cm;
+    top: 2cm;
+}
+.punto14{
+    position: absolute;
+    left: 0.2cm;
+    top: 2cm;
+}
+.punto15{
+    position: absolute;
+    left: 0.3cm;
+    top: 2cm;
+}
+.punto16{
+    position: absolute;
+    left: 0.4cm;
+    top: 2cm;
+}
+.punto17{
+    position: absolute;
+    left: 0.5cm;
+    top: 2cm;
+}
+
+.punto18{
+    position: absolute;
+    left: 0.6cm;
+    top: 2cm;
+}
+.punto19{
+    position: absolute;
+    left: 0.7cm;
+    top: 2cm;
+}
+.punto20{
+    position: absolute;
+    left: 0.8cm;
+    top: 2cm;
+}
+.punto21{
+    position: absolute;
+    left: 0.9cm;
+    top: 2cm;
+}
+.punto22{
+    position: absolute;
+    left: 1cm;
+    top: 2cm;
+}
+
+/*jojo*/
+
+.punto31{
+    position: absolute;
+    left: 0.6cm;
+    top: 0.1cm;
+}
+.punto32{
+    position: absolute;
+    left: 0.6cm;
+    top: 0.2cm;
+}
+.punto33{
+    position: absolute;
+    left: 0.6cm;
+    top: 0.3cm;
+}
+.punto34{
+    position: absolute;
+    left: 0.6cm;
+    top: 0.4cm;
+}
+.punto35{
+    position: absolute;
+    left: 0.6cm;
+    top: 0.5cm;
+}
+.punto36{
+    position: absolute;
+    left: 0.6cm;
+    top: 0.6cm;
+}
+.punto37{
+    position: absolute;
+    left: 0.6cm;
+    top: 0.7cm;
+}
+.punto38{
+    position: absolute;
+    left: 0.6cm;
+    top: 0.8cm;
+}
+.punto39{
+    position: absolute;
+    left: 0.6cm;
+    top: 0.9cm;
+}
+
+/*kko*/
+
+.fecha001{
+    position: absolute;
+    left: 0.6cm;
+    top: 0.3cm;
+}
+
+.nombreorazonsocial001{
+    position: absolute;
+    left: 0.6cm;
+    top: 0.5cm;
+}
+
+.direccion001{
+    position: absolute;
+    left: 0.6cm;
+    top: 0.7cm;
+}
+
+.rucceduladeidentidad001{
+    position: absolute;
+    left: 0.6cm;
+    top: 0.9cm;
+}
+
+.notaderemision001{
+    position: absolute;
+    left: 0.6cm;
+    top: 1.1cm;
+}
+
+.condiciondeventa001{
+    position: absolute;
+    left: 0.6cm;
+    top: 1.3cm;
+}
+
+.telefono001{
+    position: absolute;
+    left: 0.6cm;
+    top: 1.5cm;
+}
+
+.cliente001{
+    position: absolute;
+    left: 0.6cm;
+    top: 1.7cm;
+}
+
+.OC001{
+    position: absolute;
+    left: 0.6cm;
+    top: 1.9cm;
+}
+
+.vendedor001{
+    position: absolute;
+    left: 0.6cm;
+    top: 2.1cm;
+}
+
+
+
+.codigo001{
+    position: absolute;
+    left: 0.6cm;
+    top: 2.3cm;
+}
+
+.cant001{
+    position: absolute;
+    left: 1cm;
+    top: 2.3cm;
+}
+
+.descrip001{
+    position: absolute;
+    left: 2cm;
+    top: 2.3cm;
+}
+
+.preuni001{
+    position: absolute;
+    left: 3cm;
+    top: 2.3cm;
+}
+
+.exenta001{
+    position: absolute;
+    left: 4cm;
+    top: 2.3cm;
+}
+
+.cincopor001{
+    position: absolute;
+    left: 5cm;
+    top: 2.3cm;
+}
+
+.te001{
+    position: absolute;
+    left: 4cm;
+    top: 6cm;
+}
+
+.t5001{
+    position: absolute;
+    left: 5cm;
+    top: 6cm;
+}
+
+.diezpor001{
+    position: absolute;
+    left: 6cm;
+    top: 2.3cm;
+}
+
+.t10001{
+    position: absolute;
+    left: 6cm;
+    top: 6cm;
+}
+
+.totalapagar001{
+    position: absolute;
+    left: 0.6cm;
+    top: 7cm;
+}
+
+.letra001{
+    position: absolute;
+    left: 0.6cm;
+    top: 7.2cm;
+}
+
+.cincoport001{
+    position: absolute;
+    left: 0.6cm;
+    top: 7.5cm;
+}
+
+.diezport001{
+    position: absolute;
+    left: 0.6cm;
+    top: 7.7cm;
+}
+
+.total001{
+    position: absolute;
+    left: 0.6cm;
+    top: 7.9cm;
+}

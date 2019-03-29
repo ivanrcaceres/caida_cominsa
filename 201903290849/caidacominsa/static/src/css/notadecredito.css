@@ -1,0 +1,318 @@
+/*.contenedor{*/
+    /*font-size: 9px;*/
+    /*!*text-decoration-line: line-through;*!*/
+    /*font-family: "Arial", "Helvetica", "Verdana", "Trebuchet";*/
+    /*!*display: inline;*!*/
+    /*!*border: solid black 10px;*!*/
+    /*height: 16.4cm;*/
+    /*!*font-family:  "DejaVu Serif", "STIX", serif;*!*/
+
+/*}*/
+/*.Fecha{*/
+    /*position: absolute;*/
+    /*left: 5.5cm;*/
+    /*top: 1.8cm;*/
+    /*width:100%;*/
+/*}*/
+/*.Condicion{*/
+    /*position: absolute;*/
+    /*left: 10.7cm;*/
+    /*top: 1.8cm;*/
+    /*width:100%;*/
+/*}*/
+/*.Senores{*/
+    /*position: absolute;*/
+    /*width:100%;*/
+    /*left: 6.2cm;*/
+    /*top: 2cm;*/
+
+/*}*/
+/*.Direccion{*/
+    /*position: absolute;*/
+    /*width:100%;*/
+    /*left: 6.1cm;*/
+    /*top: 2.3cm;*/
+
+/*}*/
+/*.RUC{*/
+    /*position: absolute;*/
+    /*left: 5.3cm;*/
+    /*top: 2.6cm;*/
+    /*width:100%;*/
+/*}*/
+/*.Telefono{*/
+    /*position: absolute;*/
+    /*left: 10.5cm;*/
+    /*top: 2.6cm;*/
+    /*width:100%;*/
+/*}*/
+/*.OC{*/
+    /*position: absolute;*/
+    /*left: 13.4cm;*/
+    /*top: 2.6cm;*/
+    /*width:100%;*/
+/*}*/
+/*.NrodeNotacredito{*/
+    /*position: absolute;*/
+    /*left: 16.8cm;*/
+    /*top: 2.3cm;*/
+    /*width:100%;*/
+/*}*/
+/*.Cliente{*/
+    /*position: absolute;*/
+    /*left: 10.2cm;*/
+    /*top: 3cm;*/
+    /*width:100%;*/
+/*}*/
+/*.Vendedor{*/
+    /*position: absolute;*/
+    /*left: 14.4cm;*/
+    /*top: 3cm;*/
+    /*width:100%;*/
+/*}*/
+/*.FacturaNro{*/
+    /*position: absolute;*/
+    /*left: 17.7cm;*/
+    /*top: 3cm;*/
+    /*width:100%;*/
+/*}*/
+/*.Codigo{*/
+    /*position: absolute;*/
+    /*left: 1cm;*/
+    /*top: 3.5cm;*/
+    /*width:100%;*/
+/*}*/
+/*.Cantidad{*/
+    /*position: absolute;*/
+    /*left: 2.8cm;*/
+    /*top: 3.5cm;*/
+    /*width:100%;*/
+/*}*/
+/*.Detalle{*/
+    /*position: absolute;*/
+    /*left: 4.3cm;*/
+    /*top: 3cm;*/
+    /*width:100%;*/
+/*}*/
+/*.PrecioUnitario{*/
+    /*position: absolute;*/
+    /*left: 14.2cm;*/
+    /*top: 3.5cm;*/
+    /*width:100%;*/
+/*}*/
+/*.Exentas{*/
+    /*position: absolute;*/
+    /*left: 15.2cm;*/
+    /*top: 3.5cm;*/
+    /*width:100%;*/
+/*}*/
+/*.cincoporciento{*/
+    /*position: absolute;*/
+    /*left: 17.1cm;*/
+    /*top: 3.5cm;*/
+    /*width:100%;*/
+/*}*/
+/*.diezporciento{*/
+    /*position: absolute;*/
+    /*left: 18.7cm;*/
+    /*top: 3.5cm;*/
+    /*width:100%;*/
+/*}*/
+/*.Totalacreditar{*/
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*left: 4cm;*/
+    /*top: 7.5cm;*/
+/*}*/
+
+/*.ValorParcialExenta{*/
+    /*position: absolute;*/
+    /*left: 15.5cm;*/
+    /*top: 7.3cm;*/
+    /*width:100%;*/
+/*}*/
+/*.TotalaPagar{*/
+    /*position: absolute;*/
+    /*left: 17.5cm;*/
+    /*top: 7.8cm;*/
+    /*width:100%;*/
+/*}*/
+/*.LiqIVAcincoporciento{*/
+    /*position: absolute;*/
+    /*left: 13.8cm;*/
+    /*top: 8.1cm;*/
+    /*width:100%;*/
+/*}*/
+/*.LiqIVAdiezporciento{*/
+    /*position: absolute;*/
+    /*left: 14.8cm;*/
+    /*top: 8.1cm;*/
+    /*width:100%;*/
+/*}*/
+/*.Total{*/
+    /*position: absolute;*/
+    /*left: 16.9cm;*/
+    /*top: 8.1cm;*/
+    /*width:100%;*/
+/*}*/
+/*.ValorParcialcincoporciento{*/
+    /*position: absolute;*/
+    /*left: 17.1cm;*/
+    /*top: 7.2cm;*/
+    /*width:100%;*/
+/*}*/
+/*.ValorParcialdiezporciento{*/
+    /*position: absolute;*/
+    /*left: 18.7cm;*/
+    /*top: 7.2cm;*/
+    /*width:100%;*/
+/*}*/
+
+
+/*.contenedor{*/
+    /*font-size: 9px;*/
+    /*!*text-decoration-line: line-through;*!*/
+    /*font-family: "Arial", "Helvetica", "Verdana", "Trebuchet";*/
+    /*!*display: inline;*!*/
+    /*!*border: solid black 10px;*!*/
+    /*height: 16.4cm;*/
+    /*!*font-family:  "DejaVu Serif", "STIX", serif;*!*/
+    /*!*width:100%;*!*/
+
+
+/*}*/
+.Fecha{
+    position: absolute;
+    left: 5.5cm;
+    top: 1.8cm;
+}
+.Condicion{
+    position: absolute;
+    left: 10.7cm;
+    top: 1.8cm;
+}
+.Senores{
+    position: absolute;
+    left: 6.2cm;
+    top: 2cm;
+
+}
+.Direccion{
+    position: absolute;
+    left: 6.1cm;
+    top: 2.3cm;
+
+}
+.RUC{
+    position: absolute;
+    left: 5.3cm;
+    top: 2.6cm;
+}
+.Telefono{
+    position: absolute;
+    left: 10.5cm;
+    top: 2.6cm;
+}
+.OC{
+    position: absolute;
+    left: 13.4cm;
+    top: 2.6cm;
+}
+.NrodeNotacredito{
+    position: absolute;
+    left: 16.8cm;
+    top: 2.3cm;
+}
+.Cliente{
+    position: absolute;
+    left: 10.2cm;
+    top: 3cm;
+}
+.Vendedor{
+    position: absolute;
+    left: 14.4cm;
+    top: 3cm;
+}
+.FacturaNro{
+    position: absolute;
+    left: 17.7cm;
+    top: 3cm;
+}
+.Codigo{
+    position: absolute;
+    left: 1cm;
+    top: 3.5cm;
+}
+.Cantidad{
+    position: absolute;
+    left: 2.8cm;
+    top: 3.5cm;
+}
+.Detalle{
+    position: absolute;
+    left: 4.3cm;
+    top: 3cm;
+}
+.PrecioUnitario{
+    position: absolute;
+    left: 14.2cm;
+    top: 3.5cm;
+}
+.Exentas{
+    position: absolute;
+    left: 15.2cm;
+    top: 3.5cm;
+}
+.cincoporciento{
+    position: absolute;
+    left: 17.1cm;
+    top: 3.5cm;
+}
+.diezporciento{
+    position: absolute;
+    left: 18.7cm;
+    top: 3.5cm;
+}
+.Totalacreditar{
+    position: absolute;
+    width: 100%;
+    left: 4cm;
+    top: 7.5cm;
+}
+
+.ValorParcialExenta{
+    position: absolute;
+    left: 15.5cm;
+    top: 7.3cm;
+}
+.TotalaPagar{
+    position: absolute;
+    left: 17.5cm;
+    top: 7.8cm;
+}
+.LiqIVAcincoporciento{
+    position: absolute;
+    left: 13.8cm;
+    top: 8.1cm;
+}
+.LiqIVAdiezporciento{
+    position: absolute;
+    left: 14.8cm;
+    top: 8.1cm;
+}
+.Total{
+    position: absolute;
+    left: 16.9cm;
+    top: 8.1cm;
+}
+.ValorParcialcincoporciento{
+    position: absolute;
+    left: 17.1cm;
+    top: 7.2cm;
+}
+.ValorParcialdiezporciento{
+    position: absolute;
+    left: 18.7cm;
+    top: 7.2cm;
+
+}

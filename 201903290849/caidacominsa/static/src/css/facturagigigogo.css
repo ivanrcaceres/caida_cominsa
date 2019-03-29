@@ -1,0 +1,155 @@
+.contenedor{
+    font-size:8px;
+    font-family:  "DejaVu Serif", "STIX", serif;
+}
+
+
+/*FECHA*/
+.fecha-1{
+    position: absolute;
+    left: 4.70cm;
+    top: 5.0cm;
+}
+
+/*CLIENTE*/
+.nombre{
+    position: absolute;
+    top:5.0cm;
+    left: 5.20cm;
+}
+
+.direccion{
+    position: absolute;
+    top:5.80cm;
+    left:3.80cm;
+}
+
+
+
+.comprobante{
+    position: absolute;
+    top:6.30cm;
+    left:5.50cm;
+}
+
+
+.ruc{
+    position: absolute;
+    top: 5.50cm;
+    left: 16.20cm;
+}
+
+/*TELEFONO*/
+.telefono{
+    position: absolute;
+    top: 5.80cm;
+    left: 17.00cm;
+}
+
+/*DIRECCION*/
+.fecha-2{
+    position: absolute;
+    left:17.00cm;
+    top:6.30cm;
+}
+
+
+/*CODIGO VENTA*/
+.codigo-articulo {
+    position: absolute;
+    left:2.50cm;
+    top:7.50cm;
+}
+.cantidad-articulo {
+    position: absolute;
+    left:4.20cm;
+    top:7.50cm;
+}
+.descripcion-articulo {
+    position: absolute;
+    left:5.30cm;
+    top:7.50cm;
+}
+.preciounitario-articulo {
+    position: absolute;
+    left:14.00cm;
+    top:7.50cm;
+}
+.exentas-articulo {
+    position: absolute;
+    left:15.30cm;
+    top:7.50cm;
+}
+.cincoporciento{
+    position: absolute;
+    left:17.20cm;
+    top:7.50cm;
+}
+.diezporciento{
+    position: absolute;
+    left:19.20cm;
+    top:7.50cm;
+}
+
+/*SUBTOTALES*/
+
+.exenta {
+    position: absolute;
+    left:15.50cm;
+    top:16.80cm;
+}
+
+.cinco {
+    position: absolute;
+    left:17.50cm;
+    top:16.80cm;
+}
+.diez{
+    position: absolute;
+    left:19.50cm;
+    top:16.80cm;
+}
+
+/*TOTALES*/
+
+
+.montoletras{
+    position: absolute;
+    left:5.30cm;
+    top:17.20cm;
+}
+
+.montototal {
+    position: absolute;
+    left:19.70cm;
+    top:17.20cm;
+}
+
+/*TOTALES IVA*/
+
+.total5{
+    position: absolute;
+    left:5.00cm;
+    top:17.80cm;
+}
+
+.total10{
+    position: absolute;
+    left:9.60cm;
+    top:17.80cm;
+}
+.totalfinal{
+    position: absolute;
+    left:15.50cm;
+    top:14.80cm;
+}
+
+
+/*numero de factura arriba*/
+.TOTAL5{
+    position: absolute;
+    left:19.30cm;
+    top:3.50cm;
+}
+
+

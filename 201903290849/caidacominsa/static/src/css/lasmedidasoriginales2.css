@@ -1,0 +1,354 @@
+/*Lo correctos######################################################################################################3*/
+/*.nombre{*/
+    /*position: absolute;*/
+    /*left: 1.5cm;*/
+    /*top: 3.7cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.ruc{*/
+    /*position: absolute;*/
+    /*left: 1.5cm;*/
+    /*top: 4.4cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.fecha{*/
+    /*position: absolute;*/
+    /*left: 6.5cm;*/
+    /*top: 3.7cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+.cant{
+    position: absolute;
+    left: 0.8cm;
+    top: 6cm;
+
+}
+.descrip{
+    position: absolute;
+    left: 1.4cm;
+    top: 6cm;
+
+}
+.preuni{
+    position: absolute;
+    left: 5.2cm;
+    top: 6cm;
+
+}
+.exenta{
+    position: absolute;
+    left: 6.5cm;
+    top: 6cm;
+
+}
+.cincopor{
+    position: absolute;
+    left: 7.6cm;
+    top: 6cm;
+
+}
+.diezpor{
+    position: absolute;
+    left: 8.7cm;
+    top: 6cm;
+
+}
+.subt{
+    position: absolute;
+    left: 2.2cm;
+    top: 14cm;
+
+}
+.totalapagar{
+    position: absolute;
+    left: 8.7cm;
+    top: 14.5cm;
+
+}
+.letra{
+    position: absolute;
+    left: 0.8cm;
+    top: 15cm;
+
+}
+.cincoport{
+    position: absolute;
+    left: 3.5cm;
+    top: 15.5cm;
+
+}
+.diezport{
+    position: absolute;
+    left: 5.4cm;
+    top: 15.5cm;
+
+}
+.total{
+    position: absolute;
+    left: 7.8cm;
+    top: 15.5cm;
+
+}
+.te{
+    position: absolute;
+    left: 6.4cm;
+    top: 14cm;
+
+}
+.t5{
+    position: absolute;
+    left: 7.6cm;
+    top: 14cm;
+
+}
+.t10{
+    position: absolute;
+    left: 8.7cm;
+    top: 14cm;
+
+}
+
+/*comentario*/
+
+
+/*.nombre2{*/
+    /*position: absolute;*/
+    /*left: 12cm;*/
+    /*top: 3.7cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.ruc2{*/
+    /*position: absolute;*/
+    /*left: 12cm;*/
+    /*top: 4.4cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+/*.fecha2{*/
+    /*position: absolute;*/
+    /*left: 17cm;*/
+    /*top: 3.7cm;*/
+    /*width: 13.5cm;*/
+/*}*/
+.cant2{
+    position: absolute;
+    left: 11.5cm;
+    top: 6cm;
+
+}
+.descrip2{
+    position: absolute;
+    left: 12.1cm;
+    top: 6cm;
+
+}
+.preuni2{
+    position: absolute;
+    left: 16cm;
+    top: 6cm;
+
+}
+.exenta2{
+    position: absolute;
+    left: 17.2cm;
+    top: 6cm;
+
+}
+.cincopor2{
+    position: absolute;
+    left: 18.3cm;
+    top: 6cm;
+
+}
+.diezpor2{
+    position: absolute;
+    left: 19.4cm;
+    top: 6cm;
+
+}
+.subt2{
+    position: absolute;
+    left: 12.8cm;
+    top: 14cm;
+
+}
+.totalapagar2{
+    position: absolute;
+    left: 19.4cm;
+    top: 14.5cm;
+
+}
+.letra2{
+    position: absolute;
+    left: 11.5cm;
+    top: 15cm;
+
+}
+.cincoport2{
+    position: absolute;
+    left: 14.2cm;
+    top: 15.5cm;
+
+}
+.diezport2{
+    position: absolute;
+    left: 16.1cm;
+    top: 15.5cm;
+
+}
+.total2{
+    position: absolute;
+    left: 18.5cm;
+    top: 15.5cm;
+
+}
+.te2{
+    position: absolute;
+    left: 17.2cm;
+    top: 14cm;
+
+}
+.t52{
+    position: absolute;
+    left: 18.3cm;
+    top: 14cm;
+
+}
+.t102{
+    position: absolute;
+    left: 19.4cm;
+    top: 14cm;
+
+}
+
+/*lo correcto fin #################################################################################################################################3*/
+
+
+.contenedor{
+    font-size:10px;
+    font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";
+    /*border: solid black 10px;*/
+    /*width: 21.65cm;*/
+    /*height: 16.4cm;*/
+    /*font-family:  "DejaVu Serif", "STIX", serif;*/
+
+}
+
+
+
+.punto-1-1{
+    position: absolute;
+    left: 1cm;
+    top: 1cm;
+}
+
+.punto-1-2{
+    position: absolute;
+    left: 1cm;
+    top: 2cm;
+}
+.punto-2-1{
+    position: absolute;
+    left: 2cm;
+    top: 1cm;
+}
+
+.punto-2-2{
+    position: absolute;
+    left: 2cm;
+    top: 2cm;
+}
+
+
+.afechadeemision{
+    position: absolute;
+    left: 1.2cm;
+    top: 5.2cm;
+
+}
+.anombreorazonsocial{
+    position: absolute;
+    left: 0.88cm;
+    top: 4.44cm;
+    width: 13.5cm;
+}
+.arucceduladeidentidad{
+    position: absolute;
+    left: 0.88cm;
+    top: 4.99cm;
+    width: 13.5cm;
+}
+.adireccion{
+    position: absolute;
+    left: 0.88cm;
+    top: 5.4cm;
+    width: 13.5cm;
+}
+.acondiciondeventa{
+    position: absolute;
+    left: 6.66cm;
+    top: 3.99cm;
+    width: 13.5cm;
+}
+.anotaderemision{
+    position: absolute;
+    left: 6.6cm;
+    top: 4.99cm;
+    width: 13.5cm;
+}
+.atelefono{
+    position: absolute;
+    left: 6.6cm;
+    top: 5.4cm;
+    width: 13.5cm;
+}
+
+/*los de arriba para la hoja */
+
+.afechadeemision2{
+    position: absolute;
+    left: 12.76cm;
+    top: 3.99cm;
+    width: 13.5cm;
+}
+.anombreorazonsocial2{
+    position: absolute;
+    left: 12.76cm;
+    top: 4.44cm;
+    width: 13.5cm;
+}
+.arucceduladeidentidad2{
+    position: absolute;
+    left: 12.76cm;
+    top: 4.99cm;
+    width: 13.5cm;
+}
+.adireccion2{
+    position: absolute;
+    left: 12.76cm;
+    top: 5.4cm;
+    width: 13.5cm;
+}
+.acondiciondeventa2{
+    position: absolute;
+    left: 18.1cm;
+    top: 3.99cm;
+    width: 13.5cm;
+}
+.anotaderemision2{
+    position: absolute;
+    left: 18.1cm;
+    top: 4.99cm;
+    width: 13.5cm;
+}
+.atelefono2{
+    position: absolute;
+    left: 18.1cm;
+    top: 5.4cm;
+    width: 13.5cm;
+}
+
+/*Fin*/
+
+
+
+/* arriba lo delcuadro */

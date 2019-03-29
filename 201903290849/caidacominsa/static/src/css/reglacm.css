@@ -1,0 +1,16 @@
+.contenedor2{
+    font-size:12px;
+    font-family:  	"Arial", "Helvetica", "Verdana", "Trebuchet";
+    border: solid black 2px;
+    width: 21.65cm;
+    height: 16.4cm;
+    /*font-family:  "DejaVu Serif", "STIX", serif;*/
+
+}
+.contenedor {
+  height: 1px;
+  border: solid black 2px;
+  background-color: black;
+  width: 1cm;
+  height: 1cm;
+}

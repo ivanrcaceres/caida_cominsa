@@ -1,0 +1,472 @@
+<odoo>
+    <template id="remision_report_cominsa">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.basic_layout">
+                    <div class="page" >
+                        <link rel="stylesheet" href="/caidacominsa/static/src/css/notaderemision.css"/>
+                        <div class="contenedor">
+
+                            <!-- Hoja 1 -->
+
+                            <div class="fecha">
+                                <!--<p>  <span t-field="o.fecha_emision" t-field-options="{'format': 'dd/MM/yyyy'}"/> </p>-->
+                                <!--<p>  <span t-field="o.kakaroto()" /> </p>-->
+                                <p><span  t-esc="o.fechadeemi()"></span></p>
+                                <!--fecha_emision-->
+                            </div>
+
+
+
+                            <div class="nombre">
+                                <t t-if="o.partner_id.parent_id">
+                                    <p>
+                                    <t t-if="o.partner_id.nombre_fantasia">
+                                         <span t-field="o.partner_id.nombre_fantasia"/> de
+                                    </t>
+                                    <span t-field="o.partner_id.parent_id.name"/> </p>
+                                </t>
+                                <t t-elif="o.partner_id.nombre_fantasia">
+                                    <p> <span t-field="o.partner_id.nombre_fantasia"/> de  <span t-field="o.partner_id.name"/> </p>
+                                </t>
+
+                                <t t-else="">
+                                    <p>  <span t-field="o.partner_id.name"/> </p>
+                                </t>
+                            </div>
+
+
+                            <div class="domicilio">
+                                <p>  <span t-field="o.partner_id.street"/> </p>
+                            </div>
+
+
+                            <div class="ruc">
+                                <p><span t-field="o.partner_id.rucdv"/></p>
+                            </div>
+
+                            <div class="direccionllegada">
+                                <p><span t-field="o.x_studio_field_BavyH"/></p>
+                            </div>
+
+
+                            <div class="ciudad2">
+                                <p><span t-field="o.x_studio_field_sqKbu"/></p>
+                            </div>
+
+                            <div class="marca">
+                                <p><span t-field="o.vehiculo.name"/></p>
+                            </div>
+
+                            <div class="nombredelcond">
+                                <p><span t-field="o.chofer.name"/></p>
+                            </div>
+
+                            <div class="chapanro">
+                                <p><span t-field="o.vehiculo.license_plate"/></p>
+                            </div>
+                            
+                            <!--<div class="iniciodetraslado">-->
+                                <!--<p>intraslado</p>-->
+                            <!--</div>-->
+
+                            <!--<div class="fintraslado">-->
+                                <!--<p>fintraslado</p>-->
+                            <!--</div>-->
+
+                            <!--<div class="km">-->
+                                <!--<p>km</p>-->
+                            <!--</div>-->
+
+
+
+                            <!--<div class="direcciondelcond">-->
+                                <!--<p>dirdelcond</p>-->
+                            <!--</div>-->
+
+                            <!--<div class="cidelcond">-->
+                                <!--<p>cicond</p>-->
+                            <!--</div>-->
+
+                            <!--<div class="rucdeltransportista">-->
+                                <!--<p>rucdeltrans</p>-->
+                            <!--</div>-->
+
+                            <!--<div class="vendedor">-->
+                                <!--<p>vendedor</p>-->
+                            <!--</div>-->
+
+                            <!--<div class="motivo">-->
+                                <!--<p>motivo</p>-->
+                            <!--</div>-->
+
+                            <!--<div class="timbradonro">-->
+                                <!--<p>timbnro</p>-->
+                            <!--</div>-->
+
+
+
+                            <!--<div class="direccionpartida">-->
+                                <!--<p> dirpart</p>-->
+                            <!--</div>-->
+
+
+
+                            <!--<div class="ciudad">-->
+                                <!--<p>ciudad1</p>-->
+                            <!--</div>-->
+
+
+
+
+
+
+                            <!--<div class="nombre2">-->
+                                <!--<p>nombretrans</p>-->
+                            <!--</div>-->
+
+                            <!--<div class="comprobantedeventanro">-->
+                                <!--<p>nrocompr</p>-->
+                            <!--</div>-->
+
+                            <!--<div class="codigo">-->
+                                <!--<p>codigo</p>-->
+                            <!--</div>-->
+
+                            <!--<div class="cantidad">-->
+                                <!--<p>cantidad</p>-->
+                            <!--</div>-->
+
+                            <!--<div class="unidmedida">-->
+                                <!--<p>unidadmed</p>-->
+                            <!--</div>-->
+
+                            <!--<div class="descripcion">-->
+                                <!--<p>descripcion</p>-->
+                            <!--</div>-->
+
+
+                             <!--######################################Hoja 2 #############################-->
+                            <div class="fecha2">
+                                <p>fecha</p>
+                            </div>
+
+                            <div class="nombrex2">
+                                <p>nombre</p>
+                            </div>
+
+                            <div class="domicilio2">
+                                <p>domicilio</p>
+                            </div>
+
+                            <div class="iniciodetraslado2">
+                                <p>intraslado</p>
+                            </div>
+
+                            <div class="fintraslado2">
+                                <p>fintraslado</p>
+                            </div>
+
+                            <div class="km2">
+                                <p>km</p>
+                            </div>
+
+                            <div class="nombredelcond2">
+                                <p>nombredelcond</p>
+                            </div>
+
+                            <div class="direcciondelcond2">
+                                <p>dirdelcond</p>
+                            </div>
+
+                            <div class="cidelcond2">
+                                <p>cicond</p>
+                            </div>
+
+                            <div class="rucdeltransportista2">
+                                <p>rucdeltrans</p>
+                            </div>
+
+                            <div class="vendedor2">
+                                <p>vendedor</p>
+                            </div>
+
+                            <div class="motivo2">
+                                <p>motivo</p>
+                            </div>
+
+                            <div class="timbradonro2">
+                                <p>timbnro</p>
+                            </div>
+
+                            <div class="ruc2">
+                                <p>ruc</p>
+                            </div>
+
+                            <div class="direccionpartida2">
+                                <p> dirpart</p>
+                            </div>
+
+                            <div class="direccionllegada2">
+                                <p> dirlleg</p>
+                            </div>
+
+                            <div class="ciudadx2">
+                                <p>ciudad1</p>
+                            </div>
+
+                            <div class="ciudad22">
+                                <p>ciudad2</p>
+                            </div>
+
+                            <div class="marca2">
+                                <p>marca</p>
+                            </div>
+
+                            <div class="chapanro2">
+                                <p>chapa</p>
+                            </div>
+
+                            <div class="nombre22">
+                                <p>nombretrans</p>
+                            </div>
+
+                            <div class="comprobantedeventanro2">
+                                <p>nrocompr</p>
+                            </div>
+
+                            <div class="codigo2">
+                                <p>codigo</p>
+                            </div>
+
+                            <div class="cantidad2">
+                                <p>cantidad</p>
+                            </div>
+
+                            <div class="unidmedida2">
+                                <p>unidaddemedida</p>
+                            </div>
+
+                            <div class="descripcion2">
+                                <p>descripcion</p>
+                            </div>
+
+                            <!-- ##############################Hoja 3#################################### -->
+                            <div class="fecha3">
+                                <p>fecha</p>
+                            </div>
+
+                            <div class="nombre3">
+                                <p>nombre</p>
+                            </div>
+
+                            <div class="domicilio3">
+                                <p>domicilio</p>
+                            </div>
+
+                            <div class="iniciodetraslado3">
+                                <p>intraslado</p>
+                            </div>
+
+                            <div class="fintraslado3">
+                                <p>fintraslado</p>
+                            </div>
+
+                            <div class="km3">
+                                <p>km</p>
+                            </div>
+
+                            <div class="nombredelcond3">
+                                <p>nombredelcond</p>
+                            </div>
+
+                            <div class="direcciondelcond3">
+                                <p>dirdelcond</p>
+                            </div>
+
+                            <div class="cidelcond3">
+                                <p>cicond</p>
+                            </div>
+
+                            <div class="rucdeltransportista3">
+                                <p>rucdeltrans</p>
+                            </div>
+
+                            <div class="vendedor3">
+                                <p>vendedor</p>
+                            </div>
+
+                            <div class="motivo3">
+                                <p>motivo</p>
+                            </div>
+
+                            <div class="timbradonro3">
+                                <p>timbnro</p>
+                            </div>
+
+                            <div class="ruc3">
+                                <p>ruc</p>
+                            </div>
+
+                            <div class="direccionpartida3">
+                                <p> dirpart</p>
+                            </div>
+
+                            <div class="direccionllegada3">
+                                <p> dirlleg</p>
+                            </div>
+
+                            <div class="ciudad3">
+                                <p>ciudad1</p>
+                            </div>
+
+                            <div class="ciudad23">
+                                <p>ciudad2</p>
+                            </div>
+
+                            <div class="marca3">
+                                <p>marca</p>
+                            </div>
+
+                            <div class="chapanro3">
+                                <p>chapa</p>
+                            </div>
+
+                            <div class="nombre23">
+                                <p>nombretrans</p>
+                            </div>
+
+                            <div class="comprobantedeventanro3">
+                                <p>nrocompr</p>
+                            </div>
+
+                            <div class="codigo3">
+                                <p>codigo</p>
+                            </div>
+
+                            <div class="cantidad3">
+                                <p>cantidad</p>
+                            </div>
+
+                            <div class="unidmedida3">
+                                <p>unidaddemedida</p>
+                            </div>
+
+                            <div class="descripcion3">
+                                <p>descripcion</p>
+                            </div>
+
+
+                            <!-- Hoja 4 -->
+                            <div class="fecha4">
+                                <p>fecha</p>
+                            </div>
+
+                            <div class="nombre4">
+                                <p>nombre</p>
+                            </div>
+
+                            <div class="domicilio4">
+                                <p>domicilio</p>
+                            </div>
+
+                            <div class="iniciodetraslado4">
+                                <p>intraslado</p>
+                            </div>
+
+                            <div class="fintraslado4">
+                                <p>fintraslado</p>
+                            </div>
+
+                            <div class="km4">
+                                <p>km</p>
+                            </div>
+
+                            <div class="nombredelcond4">
+                                <p>nombredelcond</p>
+                            </div>
+
+                            <div class="direcciondelcond4">
+                                <p>dirdelcond</p>
+                            </div>
+
+                            <div class="cidelcond4">
+                                <p>cicond</p>
+                            </div>
+
+                            <div class="rucdeltransportista4">
+                                <p>rucdeltrans</p>
+                            </div>
+
+                            <div class="vendedor4">
+                                <p>vendedor</p>
+                            </div>
+
+                            <div class="motivo4">
+                                <p>motivo</p>
+                            </div>
+
+                            <div class="timbradonro4">
+                                <p>timbnro</p>
+                            </div>
+
+                            <div class="ruc4">
+                                <p>ruc</p>
+                            </div>
+
+                            <div class="direccionpartida4">
+                                <p> dirpart</p>
+                            </div>
+
+                            <div class="direccionllegada4">
+                                <p> dirlleg</p>
+                            </div>
+
+                            <div class="ciudad4">
+                                <p>ciudad1</p>
+                            </div>
+
+                            <div class="ciudad24">
+                                <p>ciudad2</p>
+                            </div>
+
+                            <div class="marca4">
+                                <p>marca</p>
+                            </div>
+
+                            <div class="chapanro4">
+                                <p>chapa</p>
+                            </div>
+
+                            <div class="nombre24">
+                                <p>nombretrans</p>
+                            </div>
+
+                            <div class="comprobantedeventanro4">
+                                <p>nrocompr</p>
+                            </div>
+
+                            <div class="codigo4">
+                                <p>codigo</p>
+                            </div>
+
+                            <div class="cantidad4">
+                                <p>cantidad</p>
+                            </div>
+
+                            <div class="unidmedida4">
+                                <p>unidaddemedida</p>
+                            </div>
+
+                            <div class="descripcion4">
+                                <p>descripcion</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>

@@ -1,0 +1,164 @@
+<odoo>
+    <template id="factura_report_cominsa">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.basic_layout">
+                    <div class="page" >
+                        <link rel="stylesheet" href="/caidacominsa/static/src/css/factura_cominsa102.css"/>
+                        <div class="contenedor">
+
+                            <div class="a2">T</div>
+                            <div class="a3">T</div>
+                            <div class="a4">T</div>
+                            <div class="a5">T</div>
+                            <div class="a6">T</div>
+                            <div class="a7">T</div>
+                            <div class="a8">T</div>
+                            <div class="a9">T</div>
+                            <div class="a10">T</div>
+                            <div class="a11">T</div>
+                            <div class="a12">T</div>
+                            <div class="a13">T</div>
+                            <div class="a14">T</div>
+                            <div class="a15">T</div>
+                            <div class="a16">T</div>
+                            <div class="a17">T</div>
+                            <div class="a18">T</div>
+                            <div class="a19">T</div>
+                            <div class="a20">T</div>
+                            <div class="a21">T</div>
+                            <div class="a22">T</div>
+                            <div class="a23">T</div>
+                            <div class="a24">T</div>
+                            <div class="a25">T</div>
+                            <div class="a26">T</div>
+                            <div class="a27">T</div>
+                            <div class="a28">T</div>
+                            <div class="a29">T</div>
+                            <div class="a30">T</div>
+                            <div class="a31">T</div>
+                            <div class="a32">T</div>
+                            <div class="a33">T</div>
+                            <div class="a34">T</div>
+                            <div class="a35">T</div>
+                            <div class="a36">T</div>
+                            <div class="a37">T</div>
+                            <div class="a38">T</div>
+                            <div class="a39">T</div>
+                            <div class="a40">T</div>
+                            <div class="a41">T</div>
+
+                            <div class="b15">T</div>
+                            <div class="b2">T</div>
+                            <div class="b3">T</div>
+                            <div class="b4">T</div>
+                            <div class="b5">T</div>
+                            <div class="b6">T</div>
+                            <div class="b7">T</div>
+                            <div class="b8">T</div>
+                            <div class="b9">T</div>
+                            <div class="b10">T</div>
+                            <div class="b11">T</div>
+                            <div class="b12">T</div>
+                            <div class="b13">T</div>
+                            <div class="b14">T</div>
+                            <div class="b16">T</div>
+                            <div class="b17">T</div>
+                            <div class="b18">T</div>
+                            <div class="b19">T</div>
+                            <div class="b20">T</div>
+                            <div class="b21">T</div>
+                            <div class="b22">T</div>
+                            <div class="b23">T</div>
+                            <div class="b24">T</div>
+                            <div class="b25">T</div>
+                            <div class="b26">T</div>
+                            <div class="b27">T</div>
+                            <div class="b28">T</div>
+                            <div class="b29">T</div>
+                            <div class="b30">T</div>
+                            <div class="b31">T</div>
+                            <div class="b32">T</div>
+                            <div class="b33">T</div>
+                            <div class="b34">T</div>
+                            <div class="b35">T</div>
+                            <div class="b36">T</div>
+                            <div class="b37">T</div>
+                            <div class="b38">T</div>
+                            <div class="b39">T</div>
+                            <div class="b40">T</div>
+                            <div class="b41">T</div>
+
+
+                            <div class="c2">T</div>
+                            <div class="c3">T</div>
+                            <div class="c4">T</div>
+                            <div class="c5">T</div>
+                            <div class="c6">T</div>
+                            <div class="c7">T</div>
+                            <div class="c8">T</div>
+                            <div class="c9">T</div>
+                            <div class="c10">T</div>
+                            <div class="c11">T</div>
+                            <div class="c12">T</div>
+                            <div class="c13">T</div>
+                            <div class="c14">T</div>
+                            <div class="c15">T</div>
+                            <div class="c16">T</div>
+                            <div class="c17">T</div>
+                            <div class="c18">T</div>
+                            <div class="c19">T</div>
+                            <div class="c20">T</div>
+                            <div class="c21">T</div>
+                            <div class="c22">T</div>
+                            <div class="c23">T</div>
+                            <div class="c24">T</div>
+                            <div class="c25">T</div>
+                            <div class="c26">T</div>
+                            <div class="c27">T</div>
+                            <div class="c28">T</div>
+                            <div class="c29">T</div>
+
+
+                            <div class="d2">T</div>
+                            <div class="d3">T</div>
+                            <div class="d4">T</div>
+                            <div class="d5">T</div>
+                            <div class="d6">T</div>
+                            <div class="d7">T</div>
+                            <div class="d8">T</div>
+                            <div class="d9">T</div>
+                            <div class="d10">T</div>
+                            <div class="d11">T</div>
+                            <div class="d12">T</div>
+                            <div class="d13">T</div>
+                            <div class="d14">T</div>
+                            <div class="d15">T</div>
+                            <div class="d16">T</div>
+                            <div class="d17">T</div>
+                            <div class="d18">T</div>
+                            <div class="d19">T</div>
+                            <div class="d20">T</div>
+                            <div class="d21">T</div>
+                            <div class="d22">T</div>
+                            <div class="d23">T</div>
+                            <div class="d24">T</div>
+                            <div class="d25">T</div>
+                            <div class="d26">T</div>
+                            <div class="d27">T</div>
+                            <div class="d28">T</div>
+                            <div class="d29">T</div>
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>
